@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Olimpiyat Tahtası" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Olimpiyat Tahtası — iPad Pro</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <style>
+    :root {
+      --bg-board: #f8fafc;
+      --text-board: #1e293b;
+      --panel-bg: #ffffff;
+      --panel-border: #e2e8f0;
+      --primary: #3b82f6;
+      --danger: #ef4444;
+      --muted: #64748b;
+    }
+
+    body.blackboard {
+      --bg-board: #1e293b;
+      --text-board: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+      background: var(--bg-board);
+      touch-action: none;
+    }
+
+    #app {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right);
+    }
+
+    #left-toolbar {
+      width: 96px;
+      background: var(--panel-bg);
+      border-right: 1px solid var(--panel-border);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 12px 6px;
+      gap: 6px;
+      z-index: 20;
+      overflow-y: auto;
+    }
+
+    .tool-btn {
+      width: 82px;
+      height: 36px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      background: #f8fafc;
+      color: #0f172a;
+      font-size: 12px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      cursor: pointer;
+    }
+
+    .tool-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    .tool-btn.danger {
+      background: var(--danger);
+      color: #ffffff;
+      border-color: var(--danger);
+    }
+
+    .color-row {
+      display: grid;
+      grid-template-columns: repeat(3, 22px);
+      gap: 5px;
+      margin: 4px 0;
+    }
+
+    .color-dot {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 2px solid #cbd5e1;
+      cursor: pointer;
+    }
+
+    .color-dot.active {
+      transform: scale(1.18);
+      border-color: #3b82f6;
+      box-shadow: 0 0 0 2px rgba(59,130,246,0.35);
+    }
+
+    .slider-label {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    #lineWidthSlider {
+      width: 78px;
+      accent-color: var(--primary);
+    }
+
+    .toggle-pencil-btn {
+      width: 82px;
+      padding: 6px 4px;
+      font-size: 10.5px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #f1f5f9;
+      color: #0f172a;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .toggle-pencil-btn.active {
+      background: #0f172a;
+      color: #ffffff;
+      border-color: #0f172a;
+    }
+
+    #board-container {
+      flex: 1;
+      position: relative;
+      background: var(--bg-board);
+      overflow: hidden;
+      transition: background 0.2s ease;
+    }
+
+    #question-layer {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      pointer-events: none;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      z-index: 1;
+    }
+
+    #empty-state {
+      max-width: 540px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid #cbd5e1;
+      border-radius: 14px;
+      padding: 20px;
+      color: #1e293b;
+      box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+      pointer-events: auto;
+    }
+
+    #empty-state h2 {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      color: #0f172a;
+    }
+
+    #empty-state p {
+      margin: 0 0 12px 0;
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: #475569;
+    }
+
+    #question-text {
+      font-size: 21px;
+      line-height: 1.4;
+      color: var(--text-board);
+      margin-bottom: 8px;
+      max-width: 90%;
+      white-space: pre-wrap;
+    }
+
+    #question-image {
+      max-width: 100%;
+      max-height: calc(100vh - 32px);
+      object-fit: contain;
+      object-position: top left;
+      border-radius: 6px;
+      display: none;
+    }
+
+    #draw-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 5;
+      touch-action: none;
+    }
+
+    #toggle-sidebar-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 30;
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      border: 1px solid #cbd5e1;
+      background: rgba(255, 255, 255, 0.92);
+      color: #0f172a;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    #right-sidebar {
+      width: 245px;
+      background: var(--panel-bg);
+      border-left: 1px solid var(--panel-border);
+      display: flex;
+      flex-direction: column;
+      padding: 12px;
+      gap: 8px;
+      z-index: 20;
+      transition: width 0.2s ease, padding 0.2s ease;
+    }
+
+    #right-sidebar.collapsed {
+      width: 0;
+      padding: 0;
+      overflow: hidden;
+      border-left: none;
+    }
+
+    .sidebar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-right: 36px;
+    }
+
+    .sidebar-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: 0.3px;
+    }
+
+    .import-btn {
+      width: 100%;
+      height: 38px;
+      background: #0f172a;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .field-group {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .field-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    select {
+      width: 100%;
+      height: 36px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      color: #0f172a;
+      font-size: 13px;
+      padding: 0 8px;
+    }
+
+    .nav-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .nav-btn {
+      height: 35px;
+      border-radius: 8px;
+      border: none;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .nav-btn.prev {
+      background: #f1f5f9;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+    }
+
+    .nav-btn.next {
+      background: var(--primary);
+      color: #ffffff;
+    }
+
+    #palette-grid {
+      flex: 1;
+      overflow-y: auto;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 5px;
+      align-content: start;
+      padding-top: 4px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .q-num-btn {
+      height: 34px;
+      border-radius: 7px;
+      border: 1px solid #cbd5e1;
+      background: #e2e8f0;
+      color: #0f172a;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .q-num-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+    }
+
+    #status-bar {
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      padding-top: 4px;
+      border-top: 1px solid #f1f5f9;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <aside id="left-toolbar">
+      <button class="tool-btn active" id="btnPen" onclick="setTool('pen')">🖋️ Kalem</button>
+      <button class="tool-btn" id="btnMarker" onclick="setTool('marker')">✏️ Markör</button>
+      <button class="tool-btn" id="btnHighlighter" onclick="setTool('highlighter')">💡 Fosforlu</button>
+      <button class="tool-btn" id="btnEraser" onclick="setTool('eraser')">🧽 Silgi</button>
+      <button class="tool-btn" onclick="undoStroke()">↩️ Geri Al</button>
+      <button class="tool-btn danger" onclick="clearCanvas()">🗑️ Temizle</button>
+
+      <div class="color-row" id="colorPalette">
+        <div class="color-dot active" style="background:#0f172a" data-color="#0f172a" onclick="pickColor(this)"></div>
+        <div class="color-dot" style="background:#ef4444" data-color="#ef4444" onclick="pickColor(this)"></div>
+        <div class="color-dot" style="background:#2563eb" data-color="#2563eb" onclick="pickColor(this)"></div>
+        <div class="color-dot" style="background:#16a34a" data-color="#16a34a" onclick="pickColor(this)"></div>
+        <div class="color-dot" style="background:#f59e0b" data-color="#f59e0b" onclick="pickColor(this)"></div>
+        <div class="color-dot" style="background:#ffffff" data-color="#ffffff" onclick="pickColor(this)"></div>
+      </div>
+
+      <span class="slider-label">Kalınlık: <span id="widthVal">3</span></span>
+      <input type="range" id="lineWidthSlider" min="1" max="45" value="3" oninput="updateLineWidth(this.value)" />
+
+      <button class="tool-btn" id="btnTheme" style="margin-top:6px;" onclick="toggleTheme()">🌙 Kara Tahta</button>
+      <button class="toggle-pencil-btn active" id="btnPencilOnly" onclick="togglePencilOnly()">✏️ Sadece Kalem: AÇIK</button>
+    </aside>
+
+    <main id="board-container">
+      <button id="toggle-sidebar-btn" title="Menüyü Aç/Kapat" onclick="toggleSidebar()">☰</button>
+
+      <div id="question-layer">
+        <div id="empty-state">
+          <h2>Olimpiyat Tahtası (iPad Pro)</h2>
+          <p>
+            Bilgisayardaki <b>Resources</b> klasörünü sağ tıklayıp <b>Resources.zip</b> yapın ve iPad'e aktarın. Ardından aşağıdaki butondan <b>Resources.zip</b> dosyasını seçmeniz yeterlidir; tüm sorular ve görseller çevrimdışı olarak iPad hafızasına kaydedilir.
+          </p>
+          <button class="import-btn" onclick="triggerFileSelect()">📦 Resources.zip veya Dosyaları Seç</button>
+        </div>
+
+        <div id="question-text"></div>
+        <img id="question-image" alt="Soru Görseli" />
+      </div>
+
+      <canvas id="draw-canvas"></canvas>
+    </main>
+
+    <aside id="right-sidebar">
+      <div class="sidebar-header">
+        <span class="sidebar-title">AKILLI TAHTA</span>
+      </div>
+
+      <button class="import-btn" onclick="triggerFileSelect()">📦 Resources.zip / Dosya Yükle</button>
+      <input type="file" id="universalFileInput" multiple accept=".zip,.json,.png,.jpg,.jpeg,.webp,application/zip,application/x-zip-compressed" style="display:none" onchange="handleFilesSelected(this.files)" />
+
+      <div class="field-group">
+        <label class="field-label">Kategori / Sınıf</label>
+        <select id="selCategory" onchange="onCategoryChange()"></select>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Ders</label>
+        <select id="selSubject" onchange="onSubjectChange()"></select>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Aşama / Bölüm</label>
+        <select id="selStage" onchange="onStageChange()"></select>
+      </div>
+
+      <div class="field-group">
+        <label class="field-label">Alt Başlık</label>
+        <select id="selTopic" onchange="onTopicChange()"></select>
+      </div>
+
+      <div class="nav-row">
+        <button class="nav-btn prev" onclick="prevQuestion()">◄ Önceki</button>
+        <button class="nav-btn next" onclick="nextQuestion()">Sonraki ►</button>
+      </div>
+
+      <div id="palette-grid"></div>
+      <div id="status-bar">Hazır (ZIP & Çevrimdışı Destekli)</div>
+    </aside>
+  </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(() => {});
+      });
+    }
+
+    const DB_NAME = 'OlimpiyatTahtasiOfflineDB';
+    const DB_VERSION = 1;
+    let db = null;
+
+    function openDB() {
+      return new Promise((resolve, reject) => {
+        if (db) return resolve(db);
+        const req = indexedDB.open(DB_NAME, DB_VERSION);
+        req.onupgradeneeded = (e) => {
+          const database = e.target.result;
+          if (!database.objectStoreNames.contains('jsons')) {
+            database.createObjectStore('jsons', { keyPath: 'fileName' });
+          }
+          if (!database.objectStoreNames.contains('images')) {
+            database.createObjectStore('images', { keyPath: 'fileName' });
+          }
+        };
+        req.onsuccess = (e) => {
+          db = e.target.result;
+          resolve(db);
+        };
+        req.onerror = (e) => reject(e);
+      });
+    }
+
+    async function saveRecord(storeName, record) {
+      const database = await openDB();
+      return new Promise((resolve, reject) => {
+        const tx = database.transaction(storeName, 'readwrite');
+        tx.objectStore(storeName).put(record);
+        tx.oncomplete = () => resolve();
+        tx.onerror = (e) => reject(e);
+      });
+    }
+
+    async function getAllRecords(storeName) {
+      const database = await openDB();
+      return new Promise((resolve, reject) => {
+        const tx = database.transaction(storeName, 'readonly');
+        const req = tx.objectStore(storeName).getAll();
+        req.onsuccess = () => resolve(req.result || []);
+        req.onerror = (e) => reject(e);
+      });
+    }
+
+    async function getImageBlob(fileName) {
+      if (!fileName) return null;
+      const cleanName = fileName.split('/').pop().split('\\').pop().toLowerCase();
+      const database = await openDB();
+      return new Promise((resolve) => {
+        const tx = database.transaction('images', 'readonly');
+        const req = tx.objectStore('images').get(cleanName);
+        req.onsuccess = () => resolve(req.result ? req.result.blob : null);
+        req.onerror = () => resolve(null);
+      });
+    }
+
+    let allQuestions = [];
+    let filteredQuestions = [];
+    let currentIndex = -1;
+    let activeObjectUrl = null;
+
+    const CATEGORY_ORDER = ['TYT', 'AYT', '9. Sınıf', '10. Sınıf', '11. Sınıf', '12. Sınıf', 'Olimpiyat'];
+
+    function triggerFileSelect() {
+      const input = document.getElementById('universalFileInput');
+      input.value = '';
+      input.click();
+    }
+
+    async function handleFilesSelected(fileList) {
+      if (!fileList || fileList.length === 0) return;
+      setStatus('Dosyalar işleniyor, lütfen bekleyin...');
+
+      let jsonCount = 0;
+      let imgCount = 0;
+
+      for (const file of fileList) {
+        const name = file.name;
+        const lower = name.toLowerCase();
+
+        if (lower.endsWith('.zip')) {
+          if (typeof JSZip === 'undefined') {
+            alert('ZIP kütüphanesi yüklenemedi. Lütfen internet bağlıyken sayfayı 1 kez yenileyin veya JSON + PNG dosyalarını çoklu seçin.');
+            continue;
+          }
+          setStatus(`📦 ${name} açılıyor...`);
+          const zip = await JSZip.loadAsync(file);
+          const entries = Object.values(zip.files);
+
+          for (const entry of entries) {
+            if (entry.dir) continue;
+            const baseName = entry.name.split('/').pop().split('\\').pop();
+            if (!baseName || baseName.startsWith('.') || baseName.startsWith('__MACOSX')) continue;
+
+            const entryLower = baseName.toLowerCase();
+            if (entryLower.endsWith('.bak') || entryLower.endsWith('.deps.json') || entryLower.endsWith('.runtimeconfig.json')) {
+              continue;
+            }
+
+            if (entryLower.endsWith('.json')) {
+              const text = await entry.async('string');
+              if (text.trim().length > 0) {
+                await saveRecord('jsons', { fileName: baseName, content: text });
+                jsonCount++;
+              }
+            } else if (entryLower.endsWith('.png') || entryLower.endsWith('.jpg') || entryLower.endsWith('.jpeg') || entryLower.endsWith('.webp')) {
+              const blob = await entry.async('blob');
+              await saveRecord('images', { fileName: entryLower, blob });
+              imgCount++;
+            }
+          }
+        } else {
+          if (lower.endsWith('.bak') || lower.endsWith('.deps.json') || lower.endsWith('.runtimeconfig.json')) {
+            continue;
+          }
+          if (lower.endsWith('.json')) {
+            const text = await file.text();
+            if (text.trim().length > 0) {
+              await saveRecord('jsons', { fileName: name, content: text });
+              jsonCount++;
+            }
+          } else if (lower.endsWith('.png') || lower.endsWith('.jpg') || lower.endsWith('.jpeg') || lower.endsWith('.webp')) {
+            await saveRecord('images', { fileName: lower, blob: file });
+            imgCount++;
+          }
+        }
+      }
+
+      await loadFromOfflineDB();
+      setStatus(`${jsonCount} JSON, ${imgCount} görsel yüklendi (Çevrimdışı hazır)`);
+    }
+
+    function inferCategoryAndSubject(fileName) {
+      const base = fileName.replace(/\.json$/i, '');
+      const prefixes = ['Olimpiyat_', 'TYT_', 'AYT_', '9_Sinif_', '10_Sinif_', '11_Sinif_', '12_Sinif_'];
+
+      for (const p of prefixes) {
+        if (base.toLowerCase().startsWith(p.toLowerCase())) {
+          const rawCat = p.slice(0, -1);
+          const catMap = {
+            '9_Sinif': '9. Sınıf',
+            '10_Sinif': '10. Sınıf',
+            '11_Sinif': '11. Sınıf',
+            '12_Sinif': '12. Sınıf',
+            'Olimpiyat': 'Olimpiyat',
+            'TYT': 'TYT',
+            'AYT': 'AYT'
+          };
+          const category = catMap[rawCat] || rawCat.replace(/_/g, ' ');
+          const subjRaw = base.slice(p.length);
+          return { category, subject: formatSubject(subjRaw) };
+        }
+      }
+
+      return { category: 'Olimpiyat', subject: formatSubject(base) };
+    }
+
+    function formatSubject(raw) {
+      if (/^Sayilar_?Teorisi$/i.test(raw)) return 'Sayılar Teorisi';
+      return raw.replace(/_/g, ' ').trim();
+    }
+
+    function formatTitle(raw) {
+      return (raw || '').replace(/_/g, ' ').trim();
+    }
+
+    function parsePdfMimarJson(jsonText, category, subject) {
+      const list = [];
+      try {
+        const root = JSON.parse(jsonText);
+        if (Array.isArray(root)) {
+          root.forEach((item, idx) => {
+            list.push({
+              id: item.id || item.Id || idx + 1,
+              category: item.category || category,
+              subject: item.subject || subject,
+              stage: item.stage || '1. Aşama',
+              topic: item.topic || 'Genel',
+              text: item.text || item.Text || '',
+              imageName: item.image_name || item.image || item.Image || null
+            });
+          });
+        } else if (root && typeof root === 'object') {
+          for (const [stageKey, topicsObj] of Object.entries(root)) {
+            if (!topicsObj || typeof topicsObj !== 'object') continue;
+            const stageDisplay = formatTitle(stageKey);
+
+            for (const [topicKey, itemsArr] of Object.entries(topicsObj)) {
+              if (!Array.isArray(itemsArr)) continue;
+              const topicDisplay = formatTitle(topicKey);
+
+              itemsArr.forEach((item, idx) => {
+                list.push({
+                  id: item.id || idx + 1,
+                  category,
+                  subject,
+                  stage: stageDisplay,
+                  topic: topicDisplay,
+                  text: item.text || '',
+                  imageName: item.image_name || item.image || null
+                });
+              });
+            }
+          }
+        }
+      } catch (err) {
+        console.warn('JSON ayrıştırma hatası:', err);
+      }
+      return list;
+    }
+
+    async function loadFromOfflineDB() {
+      const jsonRecords = await getAllRecords('jsons');
+      const parsed = [];
+
+      for (const rec of jsonRecords) {
+        const { category, subject } = inferCategoryAndSubject(rec.fileName);
+        const items = parsePdfMimarJson(rec.content, category, subject);
+        parsed.push(...items);
+      }
+
+      allQuestions = parsed;
+      populateCategories();
+    }
+
+    function populateCategories() {
+      const selCat = document.getElementById('selCategory');
+      const existing = [...new Set(allQuestions.map(q => q.category))];
+      const ordered = [];
+
+      for (const c of CATEGORY_ORDER) {
+        if (existing.includes(c)) ordered.push(c);
+      }
+      for (const c of existing) {
+        if (!ordered.includes(c)) ordered.push(c);
+      }
+
+      selCat.innerHTML = '';
+      if (ordered.length === 0) {
+        document.getElementById('empty-state').style.display = 'block';
+        document.getElementById('question-image').style.display = 'none';
+        document.getElementById('question-text').textContent = '';
+        document.getElementById('palette-grid').innerHTML = '';
+        return;
+      }
+
+      document.getElementById('empty-state').style.display = 'none';
+      for (const cat of ordered) {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        selCat.appendChild(opt);
+      }
+      onCategoryChange();
+    }
+
+    function onCategoryChange() {
+      const cat = document.getElementById('selCategory').value;
+      const subjects = [...new Set(allQuestions.filter(q => q.category === cat).map(q => q.subject))];
+      fillSelect('selSubject', subjects);
+      onSubjectChange();
+    }
+
+    function onSubjectChange() {
+      const cat = document.getElementById('selCategory').value;
+      const subj = document.getElementById('selSubject').value;
+      const stages = [...new Set(allQuestions.filter(q => q.category === cat && q.subject === subj).map(q => q.stage))];
+      fillSelect('selStage', stages);
+      onStageChange();
+    }
+
+    function onStageChange() {
+      const cat = document.getElementById('selCategory').value;
+      const subj = document.getElementById('selSubject').value;
+      const stage = document.getElementById('selStage').value;
+      const topics = [...new Set(allQuestions.filter(q => q.category === cat && q.subject === subj && q.stage === stage).map(q => q.topic))];
+      fillSelect('selTopic', topics);
+      onTopicChange();
+    }
+
+    function onTopicChange() {
+      const cat = document.getElementById('selCategory').value;
+      const subj = document.getElementById('selSubject').value;
+      const stage = document.getElementById('selStage').value;
+      const topic = document.getElementById('selTopic').value;
+
+      filteredQuestions = allQuestions.filter(q =>
+        q.category === cat && q.subject === subj && q.stage === stage && q.topic === topic
+      );
+
+      renderPalette();
+      currentIndex = filteredQuestions.length > 0 ? 0 : -1;
+      displayCurrentQuestion();
+    }
+
+    function fillSelect(id, items) {
+      const sel = document.getElementById(id);
+      sel.innerHTML = '';
+      for (const item of items) {
+        const opt = document.createElement('option');
+        opt.value = item;
+        opt.textContent = item;
+        sel.appendChild(opt);
+      }
+    }
+
+    function renderPalette() {
+      const grid = document.getElementById('palette-grid');
+      grid.innerHTML = '';
+      filteredQuestions.forEach((_, idx) => {
+        const btn = document.createElement('button');
+        btn.className = 'q-num-btn' + (idx === currentIndex ? ' active' : '');
+        btn.textContent = idx + 1;
+        btn.onclick = () => {
+          currentIndex = idx;
+          displayCurrentQuestion();
+        };
+        grid.appendChild(btn);
+      });
+    }
+
+    async function displayCurrentQuestion() {
+      clearCanvas();
+      renderPalette();
+
+      const txtEl = document.getElementById('question-text');
+      const imgEl = document.getElementById('question-image');
+
+      if (activeObjectUrl) {
+        URL.revokeObjectURL(activeObjectUrl);
+        activeObjectUrl = null;
+      }
+
+      if (currentIndex < 0 || currentIndex >= filteredQuestions.length) {
+        txtEl.textContent = '';
+        imgEl.style.display = 'none';
+        return;
+      }
+
+      const q = filteredQuestions[currentIndex];
+      txtEl.textContent = q.text || '';
+      txtEl.style.display = q.text ? 'block' : 'none';
+
+      if (q.imageName) {
+        const blob = await getImageBlob(q.imageName);
+        if (blob) {
+          activeObjectUrl = URL.createObjectURL(blob);
+          imgEl.src = activeObjectUrl;
+          imgEl.style.display = 'block';
+        } else {
+          imgEl.style.display = 'none';
+          txtEl.style.display = 'block';
+          txtEl.textContent = `Görsel bulunamadı: ${q.imageName}`;
+        }
+      } else {
+        imgEl.style.display = 'none';
+      }
+
+      setStatus(`Soru ${currentIndex + 1} / ${filteredQuestions.length}`);
+    }
+
+    function prevQuestion() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        displayCurrentQuestion();
+      }
+    }
+
+    function nextQuestion() {
+      if (currentIndex < filteredQuestions.length - 1) {
+        currentIndex++;
+        displayCurrentQuestion();
+      }
+    }
+
+    function setStatus(msg) {
+      document.getElementById('status-bar').textContent = msg;
+    }
+
+    function toggleSidebar() {
+      document.getElementById('right-sidebar').classList.toggle('collapsed');
+      setTimeout(resizeCanvas, 220);
+    }
+
+    const canvas = document.getElementById('draw-canvas');
+    const ctx = canvas.getContext('2d');
+
+    let strokes = [];
+    let currentStroke = null;
+    let isDrawing = false;
+
+    let currentTool = 'pen';
+    let currentColor = '#0f172a';
+    let currentWidth = 3;
+    let isBlackboard = false;
+    let applePencilOnly = true;
+
+    function resizeCanvas() {
+      const container = document.getElementById('board-container');
+      const dpr = window.devicePixelRatio || 1;
+      const rect = container.getBoundingClientRect();
+      canvas.width = rect.width * dpr;
+      canvas.height = rect.height * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      redrawAll();
+    }
+
+    window.addEventListener('resize', resizeCanvas);
+
+    function setTool(tool) {
+      currentTool = tool;
+      document.querySelectorAll('#left-toolbar .tool-btn').forEach(b => b.classList.remove('active'));
+      if (tool === 'pen') {
+        document.getElementById('btnPen').classList.add('active');
+        currentWidth = 3;
+      } else if (tool === 'marker') {
+        document.getElementById('btnMarker').classList.add('active');
+        currentWidth = 8;
+      } else if (tool === 'highlighter') {
+        document.getElementById('btnHighlighter').classList.add('active');
+        currentWidth = 22;
+      } else if (tool === 'eraser') {
+        document.getElementById('btnEraser').classList.add('active');
+        currentWidth = 32;
+      }
+      document.getElementById('lineWidthSlider').value = currentWidth;
+      document.getElementById('widthVal').textContent = currentWidth;
+    }
+
+    function pickColor(el) {
+      document.querySelectorAll('.color-dot').forEach(d => d.classList.remove('active'));
+      el.classList.add('active');
+      currentColor = el.dataset.color;
+      if (currentTool === 'eraser') setTool('pen');
+    }
+
+    function updateLineWidth(val) {
+      currentWidth = parseFloat(val);
+      document.getElementById('widthVal').textContent = val;
+    }
+
+    function toggleTheme() {
+      isBlackboard = !isBlackboard;
+      document.body.classList.toggle('blackboard', isBlackboard);
+      const btn = document.getElementById('btnTheme');
+      btn.textContent = isBlackboard ? '☀️ Beyaz Tahta' : '🌙 Kara Tahta';
+
+      if (isBlackboard && currentColor === '#0f172a') {
+        currentColor = '#ffffff';
+      } else if (!isBlackboard && currentColor === '#ffffff') {
+        currentColor = '#0f172a';
+      }
+      redrawAll();
+    }
+
+    function togglePencilOnly() {
+      applePencilOnly = !applePencilOnly;
+      const btn = document.getElementById('btnPencilOnly');
+      btn.classList.toggle('active', applePencilOnly);
+      btn.textContent = applePencilOnly ? '✏️ Sadece Kalem: AÇIK' : '👆 Parmak + Kalem';
+    }
+
+    function getPoint(e) {
+      const rect = canvas.getBoundingClientRect();
+      return {
+        x: e.clientX - rect.left,
+        y: e.clientY - rect.top,
+        pressure: e.pressure && e.pressure > 0 ? e.pressure : 0.5
+      };
+    }
+
+    canvas.addEventListener('pointerdown', (e) => {
+      if (applePencilOnly && e.pointerType === 'touch') return;
+
+      canvas.setPointerCapture(e.pointerId);
+      isDrawing = true;
+      const pt = getPoint(e);
+      currentStroke = {
+        tool: currentTool,
+        color: currentColor,
+        width: currentWidth,
+        points: [pt]
+      };
+    });
+
+    canvas.addEventListener('pointermove', (e) => {
+      if (!isDrawing || !currentStroke) return;
+      if (applePencilOnly && e.pointerType === 'touch') return;
+
+      const events = e.getCoalescedEvents ? e.getCoalescedEvents() : [e];
+      for (const ev of events) {
+        currentStroke.points.push(getPoint(ev));
+      }
+      redrawAll();
+      drawSingleStroke(currentStroke);
+    });
+
+    function finishStroke(e) {
+      if (!isDrawing) return;
+      isDrawing = false;
+      if (currentStroke && currentStroke.points.length > 0) {
+        strokes.push(currentStroke);
+      }
+      currentStroke = null;
+      redrawAll();
+    }
+
+    canvas.addEventListener('pointerup', finishStroke);
+    canvas.addEventListener('pointercancel', finishStroke);
+
+    function drawSingleStroke(s) {
+      if (!s || s.points.length === 0) return;
+
+      ctx.save();
+      ctx.lineCap = 'round';
+      ctx.lineJoin = 'round';
+
+      if (s.tool === 'eraser') {
+        ctx.globalCompositeOperation = 'destination-out';
+        ctx.strokeStyle = 'rgba(0,0,0,1)';
+        ctx.lineWidth = s.width;
+      } else if (s.tool === 'highlighter') {
+        ctx.globalCompositeOperation = 'source-over';
+        ctx.globalAlpha = 0.35;
+        ctx.strokeStyle = s.color;
+        ctx.lineWidth = s.width;
+      } else {
+        ctx.globalCompositeOperation = 'source-over';
+        ctx.globalAlpha = 1.0;
+        ctx.strokeStyle = s.color;
+        ctx.lineWidth = s.width;
+      }
+
+      ctx.beginPath();
+      ctx.moveTo(s.points[0].x, s.points[0].y);
+
+      if (s.points.length === 1) {
+        ctx.lineTo(s.points[0].x + 0.1, s.points[0].y + 0.1);
+      } else {
+        for (let i = 1; i < s.points.length - 1; i++) {
+          const midX = (s.points[i].x + s.points[i + 1].x) / 2;
+          const midY = (s.points[i].y + s.points[i + 1].y) / 2;
+          ctx.quadraticCurveTo(s.points[i].x, s.points[i].y, midX, midY);
+        }
+        const last = s.points[s.points.length - 1];
+        ctx.lineTo(last.x, last.y);
+      }
+
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    function redrawAll() {
+      const container = document.getElementById('board-container');
+      const rect = container.getBoundingClientRect();
+      ctx.clearRect(0, 0, rect.width, rect.height);
+      for (const s of strokes) {
+        drawSingleStroke(s);
+      }
+    }
+
+    function undoStroke() {
+      if (strokes.length > 0) {
+        strokes.pop();
+        redrawAll();
+      }
+    }
+
+    function clearCanvas() {
+      strokes = [];
+      currentStroke = null;
+      redrawAll();
+    }
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      resizeCanvas();
+      await loadFromOfflineDB();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Olimpiyat Tahtası",
+  "short_name": "OlimpiyatTahtası",
+  "description": "Matematik Olimpiyatları, TYT ve AYT Akıllı Ders Anlatım Tahtası",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
