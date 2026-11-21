@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-21T18:41:42.1143409Z",
+  "updatedAt": "2026-11-21T18:50:57.1646920Z",
   "files": [
     {
       "type": "json",
       "fileName": "11_Sinif_Matematik.json",
       "path": "Resources/Raw/11_Sinif_Matematik.json",
-      "hash": "DED3E443F6DEEED8FA55CB696C485848613C1D9CBBC40FA3C9A87286FECC162C"
+      "hash": "A84B742128F9856C72E8EED62970904F6A815DF7F26687E0445F3B8B07DB7F7C"
     },
     {
       "type": "image",
@@ -132,6 +132,390 @@
       "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_ii_021.png",
       "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_ii_021.png",
       "hash": "7359223A10E083D03D774E477DF1C56DD2830B396558E3BC9851CAD75E8D7B29"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_001.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_001.png",
+      "hash": "2620B3DFBC05ED2BE0929E7ECC691F7060201C0A0AAAC5027768027B6EE30962"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_002.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_002.png",
+      "hash": "05B11634D7EFB275476FB694A4D3F2FDC0B39FC33E132BB8E4321AC7CEAEB3EA"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_003.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_003.png",
+      "hash": "16D76968D3531312D4D2144E45416F6B7A86DE1796B7CE5EED44FE26301FCD95"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_004.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_004.png",
+      "hash": "18B39A9BFE97A9CF7ADE4C69319B58EA17E1885386843231929DE14C0558C1C9"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_005.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_005.png",
+      "hash": "5D0A977A3F5E68478BFAB3ECED0E7417D1B3B3DF03A509727ABF0E1BBB2E9E52"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_006.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_006.png",
+      "hash": "97F2687D44EFD51A1C7119F23C1139798302FC53E7170AA42C85DF42D4C06DF6"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_007.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_007.png",
+      "hash": "F30A07902543ED695C41B6BDB7F30978F7035BD329ABFF5B528942AB3D780712"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_008.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_008.png",
+      "hash": "EA3149BC358AA042BD673BD8C13111830718C3F2783EB283D582F049BA97AC43"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_009.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_009.png",
+      "hash": "6C0F908122B7BF6D6FD4C7B52489280CEE35F91527D849187081230445273DFB"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_010.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_010.png",
+      "hash": "B2B3DB993AAF764125B6A3EDA6F393565632BE1A49697FF69AC3942515A1179C"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_011.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_011.png",
+      "hash": "E79DF04C9BDABE36FA9DA0F5443E0FE7E454F9166522053E068301ACAA3F62B0"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_012.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_012.png",
+      "hash": "76AB3240FA212AA2CD7D7F6F621C3B5D4DCADF6CC276CE58A16DE4E72A94F94B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_013.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_013.png",
+      "hash": "270895A6362AED4F6D3F639DCF4C96C68D1EB795F1F72CB2DE316D29A8DE5FE2"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_014.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_014.png",
+      "hash": "08D2C649DF4104564E1EDE5A8457A873A4C56B10CF5D6E9F80587D1BD46D725A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_015.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_015.png",
+      "hash": "A7ED1820C1AFB8FF6B9AC1E85602686573AAB0E377B878F8CF128656183A52BE"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_016.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_016.png",
+      "hash": "9285AD88477FC755BEE890C1D69DCEF88E860C57DBE218E4212B53F1DBD864B7"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_017.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_017.png",
+      "hash": "ACC5619164073A09A32A8B62C91C6CDEAF92D83A4E42F84DFFA6DCDA04C303A8"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_018.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_018.png",
+      "hash": "8D778FA61058710ECB320C89AB51EABF3B72BB8C91D0628FD5210D1A32BB53BD"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_019.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_019.png",
+      "hash": "E731DA1F329174D9CD827432CA46D966B51525ABD6C817D9558B940DDF07A250"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_020.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_020.png",
+      "hash": "263E0502DB2747B07484D693767E0D6615B5C2C14A3190BEE873897577B6DBC7"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_021.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_021.png",
+      "hash": "DA755A2EFA77F7336E396265AF0EC85820B398D1FDF068EBEB883E5602276677"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_022.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_022.png",
+      "hash": "FF644852E7B67A64CFDA63EAAEDC9392D25DBBCCB3BB1564516DF17F169A774D"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_023.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_023.png",
+      "hash": "F06E2F503F4AB921B820B67A7829EDF5752406F424B1A7CCDFF245A27359DF80"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_024.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_024.png",
+      "hash": "D44800A837F77466B461A1D007E1E7ECE371A3BA3C3853605EF956A35717071A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_025.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_025.png",
+      "hash": "B226DC6EBEABCE8D6A861E7D950EA9FEB5084C3DE6E8F70AA8E2E19DFC205ECE"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_026.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_026.png",
+      "hash": "0C2C0947C2AA6DD59090E1248A1E47D43D4A9AEA5C41353BC6A41DED0043C8CC"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_027.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_027.png",
+      "hash": "D1108F4F9A77CC31C36A0846F17F966FDFBC036D187F10D50F8766D46EF035F1"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_028.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_028.png",
+      "hash": "4974D42659254020D92587911D100C487ABCA9D9953C78556B2B9FE5736DD73B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_029.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_029.png",
+      "hash": "65A7CC83F29FC84B96AE903280D348D4A6F9A1AC12468A9E445DD7E0B2F9703B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_030.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_030.png",
+      "hash": "6E52D560B08F8D8D7C5D429C7ACB45C8275D8B90D5EE262C3B434EB5F9F502D5"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_031.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_031.png",
+      "hash": "EA5F83C0BAEC336EF784ADA556D67D1A5EB23CE2441AA998BBF35FEEF8E8ABD5"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_032.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_032.png",
+      "hash": "674745F89488148245AF3DCDBDBFBFBAD3E1E05C2BD4A1FF0BA75FE319C31AFE"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_033.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_033.png",
+      "hash": "255848127D70D984E685365EB74CFDAEF45A9912452AE7A6CC5A3B87EB20AEC1"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_034.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_034.png",
+      "hash": "D689FED61F2E87EBA59F15F5B373B6A3EA4A9B52B9E781E78A3A06272D295DCE"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_035.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_035.png",
+      "hash": "5AB37E547FC3D81042FA45708B52D14FDC038DD58C0BBB3CA783B893754CD00D"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_036.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_036.png",
+      "hash": "3F4C6520F57813F6F780FD61C41C7D23FF43FEC40593FEC8EC6E9C519DB97A38"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_037.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_037.png",
+      "hash": "61CCD1E77263070DFFBB6D11C4ECB733B4B9E36F5B435D738DA8F4F09C095A11"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_038.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_038.png",
+      "hash": "7A3CA3B18C5AECE7F59C4E6670FBF0BEE4354E151B432FC42F65B749C48B5390"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_039.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_039.png",
+      "hash": "4E724C1FC376DE8A463556826346D5445611126999B2CC14F371A60D8AB8355A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_040.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_040.png",
+      "hash": "BA8FDF1577A91A63B6811D87D418430AB68467C7B2EBA99B0925190DA40EE50C"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_041.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_041.png",
+      "hash": "A7333B59735849094E63C70012B86B764AF3306E807502EA881EACDB0FEF517F"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_042.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_042.png",
+      "hash": "37B4DD7EC6C9049ED6DB3B456B472563997F6371083D20B2E2162B29F37E0D28"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_043.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_043.png",
+      "hash": "0E135DF93229E89B9C497CB467929C0B83F09238C589D7E2065EA4C877FBEB0B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_044.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_044.png",
+      "hash": "061F62440E6B013840AFF2E0C924B5B566BE57A3BFAA57FFFCF75F181DD6290C"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_045.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_045.png",
+      "hash": "A8F3D6B279142F14F395FBD3A1739DE0C29590EF2259820ADDF7D28BC28D5CA3"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_046.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_046.png",
+      "hash": "9859F8DE1A18D2A49FF871DB211626A2FD551536979E71D7352D6F85B1FBDD43"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_047.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_047.png",
+      "hash": "70920A09FB27649643428E2C16A8B79C8AC02ADB1F221F993F414E436FE3B062"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_048.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_048.png",
+      "hash": "AECF394DA3AF5CD52DB20A53D3BBB59461BA77A3D5D444F22159523861BE3968"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_049.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_049.png",
+      "hash": "09C7D4CAF9248A092D3AB35B5DB4CE750F31D6619B0D62BEB716B8C29B408F80"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_050.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_050.png",
+      "hash": "61E01FB7274ACE760378FB58D726641AE9752FC6A7A93EEEB2F20428AF6866E3"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_051.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_051.png",
+      "hash": "7F11EE49635B9F40948259F4E70A0AA405F3C774701E9CA1E586FEA0AA902C07"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_052.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_052.png",
+      "hash": "2B4BA42E8A44738391CF4685CFEE99C8F50B3C2EE457B3D6FA878E8B5F6E5E45"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_053.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_053.png",
+      "hash": "C73153C301EEAA773CCB44C15FE1CC0DFACEDF808A0D160F88E19B2B3502060E"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_054.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_054.png",
+      "hash": "4CF0922C8213585BBD84AC53BF542530B8A1F0BFC459A34C350E15BCB89AD242"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_055.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_055.png",
+      "hash": "711A6A86287542FACB2E8442FDDEC628F4F11668B886FAC241F9F1F737628DFF"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_056.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_056.png",
+      "hash": "8D69B820B78B035B786E6D50C9ADB4984987CD343B0FFCA703C1078E9FFD2665"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_057.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_057.png",
+      "hash": "8F4A022BE088A7477AA97860F8EDA301A0051BD465FCCD99CFAC5D26EB4858AA"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_058.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_058.png",
+      "hash": "FCFFC083DF7B38620E54DE44C18C537CA66FF485959B4D1311F863C62FFD451A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_059.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_059.png",
+      "hash": "6C50359812B3C67BE842EE5D8F3689F1453EF09E54543320B25FB19C3841E955"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_060.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_060.png",
+      "hash": "7F49275A30F881996180F135283101C006B01411B110B04CB0AAE1DF893B44CA"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_061.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_061.png",
+      "hash": "F8B15E0438EBB378F2E6301E0A6F0A4948BD36761385E1FDCE0499B81937EC52"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_062.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_062.png",
+      "hash": "B46EBDC5088ECF0E3BA72C75483C05E1DEBC1860B5D7CC994B505441EBB033E5"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_063.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_063.png",
+      "hash": "727F107D7CD081D919B9225ADCDD5D824584ECC4F077154F98EFC73CAD1A7703"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_064.png",
+      "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_064.png",
+      "hash": "0B45D3D73F551C01412C80EBE408541D3BC8894703D4BC93B25506AE00C4032A"
     }
   ]
 }
