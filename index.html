@@ -274,12 +274,24 @@
 
     .import-btn {
       width: 100%;
-      height: 38px;
+      height: 36px;
       background: #0f172a;
       color: #ffffff;
       border: none;
       border-radius: 8px;
-      font-size: 12.5px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .sync-btn {
+      width: 100%;
+      height: 36px;
+      background: #16a34a;
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      font-size: 12px;
       font-weight: 600;
       cursor: pointer;
     }
@@ -404,9 +416,10 @@
         <div id="empty-state">
           <h2>Olimpiyat Tahtası (iPad Pro)</h2>
           <p>
-            Bilgisayardaki <b>Resources</b> klasörünü sağ tıklayıp <b>Resources.zip</b> yapın ve iPad'e aktarın. Ardından aşağıdaki butondan <b>Resources.zip</b> dosyasını seçmeniz yeterlidir; tüm sorular ve görseller çevrimdışı olarak iPad hafızasına kaydedilir.
+            Bilgisayardaki <b>PDF MimarPro</b> üzerinden gönderdiğiniz sorular internet üzerinden otomatik olarak bu ekrana yüklenir ve çevrimdışı hafızaya kaydedilir.
           </p>
-          <button class="import-btn" onclick="triggerFileSelect()">📦 Resources.zip veya Dosyaları Seç</button>
+          <button class="sync-btn" style="margin-bottom:8px;" onclick="syncFromCloud(true)">☁️ Buluttan Şimdi Güncelle</button>
+          <button class="import-btn" onclick="triggerFileSelect()">📦 Manuel ZIP / Dosya Seç</button>
         </div>
 
         <div id="question-text"></div>
@@ -421,7 +434,8 @@
         <span class="sidebar-title">AKILLI TAHTA</span>
       </div>
 
-      <button class="import-btn" onclick="triggerFileSelect()">📦 Resources.zip / Dosya Yükle</button>
+      <button class="sync-btn" onclick="syncFromCloud(true)">☁️ Buluttan Güncelle</button>
+      <button class="import-btn" onclick="triggerFileSelect()">📦 Manuel ZIP Yükle</button>
       <input type="file" id="universalFileInput" multiple accept=".zip,.json,.png,.jpg,.jpeg,.webp,application/zip,application/x-zip-compressed" style="display:none" onchange="handleFilesSelected(this.files)" />
 
       <div class="field-group">
@@ -450,7 +464,7 @@
       </div>
 
       <div id="palette-grid"></div>
-      <div id="status-bar">Hazır (ZIP & Çevrimdışı Destekli)</div>
+      <div id="status-bar">Hazır (Bulut & Çevrimdışı Destekli)</div>
     </aside>
   </div>
 
@@ -544,7 +558,7 @@
 
         if (lower.endsWith('.zip')) {
           if (typeof JSZip === 'undefined') {
-            alert('ZIP kütüphanesi yüklenemedi. Lütfen internet bağlıyken sayfayı 1 kez yenileyin veya JSON + PNG dosyalarını çoklu seçin.');
+            alert('ZIP kütüphanesi yüklenemedi. İnternet bağlıyken sayfayı 1 kez yenileyin.');
             continue;
           }
           setStatus(`📦 ${name} açılıyor...`);
@@ -1036,9 +1050,59 @@
       redrawAll();
     }
 
+    async function syncFromCloud(manual = false) {
+      try {
+        setStatus('☁️ Bulut kontrol ediliyor...');
+        const res = await fetch('./Resources/manifest_arsiv.json?t=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) {
+          if (manual) setStatus('⚠️ Bulutta henüz arşiv bulunamadı');
+          return false;
+        }
+
+        const manifest = await res.json();
+        if (!manifest || !Array.isArray(manifest.files)) return false;
+
+        const savedHashes = JSON.parse(localStorage.getItem('tahta_cloud_hashes') || '{}');
+        let yeniSayisi = 0;
+
+        for (const f of manifest.files) {
+          if (savedHashes[f.path] === f.hash) continue;
+
+          setStatus(`☁️ İndiriliyor: ${f.fileName}...`);
+          const fileRes = await fetch('./' + f.path + '?t=' + Date.now(), { cache: 'no-store' });
+          if (!fileRes.ok) continue;
+
+          if (f.type === 'json') {
+            const text = await fileRes.text();
+            await saveRecord('jsons', { fileName: f.fileName, content: text });
+          } else if (f.type === 'image') {
+            const blob = await fileRes.blob();
+            await saveRecord('images', { fileName: f.fileName.toLowerCase(), blob });
+          }
+
+          savedHashes[f.path] = f.hash;
+          yeniSayisi++;
+        }
+
+        localStorage.setItem('tahta_cloud_hashes', JSON.stringify(savedHashes));
+        if (yeniSayisi > 0) {
+          await loadFromOfflineDB();
+          setStatus(`☁️ ${yeniSayisi} yeni dosya indirildi (Çevrimdışı hazır)`);
+        } else {
+          setStatus('✅ Arşiv güncel (Çevrimdışı hazır)');
+        }
+        return true;
+      } catch (e) {
+        console.log('Çevrimdışı modda çalışıyor:', e);
+        if (manual) setStatus('⚠️ İnternet bağlantısı yok (Çevrimdışı mod)');
+        return false;
+      }
+    }
+
     window.addEventListener('DOMContentLoaded', async () => {
       resizeCanvas();
       await loadFromOfflineDB();
+      await syncFromCloud(false);
     });
   </script>
 </body>
