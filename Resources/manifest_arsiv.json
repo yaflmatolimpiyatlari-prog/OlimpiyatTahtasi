@@ -1,11 +1,1589 @@
 {
-  "updatedAt": "2026-11-21T18:50:57.1646920Z",
+  "updatedAt": "2026-11-21T21:51:11.8361452Z",
   "files": [
     {
       "type": "json",
       "fileName": "11_Sinif_Matematik.json",
       "path": "Resources/Raw/11_Sinif_Matematik.json",
-      "hash": "A84B742128F9856C72E8EED62970904F6A815DF7F26687E0445F3B8B07DB7F7C"
+      "hash": "49A44CA12F995E9B84129E3B4422B739B3AE8B6AED74539979884F30BA10E04D"
+    },
+    {
+      "type": "json",
+      "fileName": "Analiz.json",
+      "path": "Resources/Raw/Analiz.json",
+      "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "type": "json",
+      "fileName": "AYT_Matematik.json",
+      "path": "Resources/Raw/AYT_Matematik.json",
+      "hash": "CD4306E91238015064EE655E3D31738B4C37A6FEBE13BD2E9238B880D0110EC0"
+    },
+    {
+      "type": "json",
+      "fileName": "Geometri.json",
+      "path": "Resources/Raw/Geometri.json",
+      "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "type": "json",
+      "fileName": "Kombinatorik.json",
+      "path": "Resources/Raw/Kombinatorik.json",
+      "hash": "950C4FEF497092A2C3CB60A10C249347D264EB36FAC4F7A433AC36C53A4E1865"
+    },
+    {
+      "type": "json",
+      "fileName": "SayilarTeorisi.json",
+      "path": "Resources/Raw/SayilarTeorisi.json",
+      "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_001.png",
+      "path": "Resources/Images/ayt_polinnomlar_001.png",
+      "hash": "95CDADA5BBF90E96C0AADC544070F00B612E30F190245C7450BE21FE5CE4ECA7"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_002.png",
+      "path": "Resources/Images/ayt_polinnomlar_002.png",
+      "hash": "A46C8BEEA67272EBBBC4583DEF0345E296837AD208153CBD4B46218D97CE03E0"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_003.png",
+      "path": "Resources/Images/ayt_polinnomlar_003.png",
+      "hash": "EFE916147F60AEDBB4B4EBBAFD10026AC54659D4571036C5D7A79C04193AD58D"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_004.png",
+      "path": "Resources/Images/ayt_polinnomlar_004.png",
+      "hash": "10DEED71FC15E0CB54F45B239C5ACF638266763282D40498294994AC3AA04486"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_005.png",
+      "path": "Resources/Images/ayt_polinnomlar_005.png",
+      "hash": "1CA39B23D25B5752742FA7D7DE352B3F1DBB338EBE2614381BC0F1B6152C658D"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_006.png",
+      "path": "Resources/Images/ayt_polinnomlar_006.png",
+      "hash": "BC7C10184D18E45A5383641A754C1BE8834F6EDEA369497D9313C4D54CB64152"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_007.png",
+      "path": "Resources/Images/ayt_polinnomlar_007.png",
+      "hash": "612254E94D4B3FC50B0CEE93A2ECBD9AEB18FF6DECBC039CF941A8FFED32817C"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_008.png",
+      "path": "Resources/Images/ayt_polinnomlar_008.png",
+      "hash": "5BE654153B84757B452D66EB94BCF552966F2469CAE6C3D77F28BB370E8618D1"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_009.png",
+      "path": "Resources/Images/ayt_polinnomlar_009.png",
+      "hash": "EEDAC454C1BD73473EF149162FFFC0721EE1FB346376AF0188F9D0E1BC3981D6"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_010.png",
+      "path": "Resources/Images/ayt_polinnomlar_010.png",
+      "hash": "A0DC9CBFFB2895E7049A95EA1DB5FDFEF86DCA0098B74415CF9CE52B2C9708C1"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_011.png",
+      "path": "Resources/Images/ayt_polinnomlar_011.png",
+      "hash": "DC9A3A815088C0D181D96ACB71EE5E2C96244EFC76E9F6C4A031D72F689DB932"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_012.png",
+      "path": "Resources/Images/ayt_polinnomlar_012.png",
+      "hash": "D7FED0409C0EC4CA94EA740EF1778062BB77D8561D5241B91F1B5AFD8E5F4635"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_013.png",
+      "path": "Resources/Images/ayt_polinnomlar_013.png",
+      "hash": "F8EBC457CA39F86285DFFDDA0D593E46E362B3675EAF4993FED28D9858B5E1CF"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_014.png",
+      "path": "Resources/Images/ayt_polinnomlar_014.png",
+      "hash": "E3FFFE90D52417AB7C653BCCAC574D89B8401994C1E2B1B490B421C432A719B1"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_015.png",
+      "path": "Resources/Images/ayt_polinnomlar_015.png",
+      "hash": "C7A34C6687F311F8F2CF67DB7758BC2CE9DEBC315DE84154328BE602FDA23B75"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_016.png",
+      "path": "Resources/Images/ayt_polinnomlar_016.png",
+      "hash": "3C8FC7229E87B578153F4CE4F6DB5F7E8278101AB27705C5DC0F0BFC30D45C66"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_017.png",
+      "path": "Resources/Images/ayt_polinnomlar_017.png",
+      "hash": "B7D2AB4909BB3050895F9E377A93FBB72ABCDC66B18F385F1B40B1CB2179CD81"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_018.png",
+      "path": "Resources/Images/ayt_polinnomlar_018.png",
+      "hash": "5634CBAEFEA03D9229E9D59224D85A65A41F573BAC88B262D038E80D2B1F3E46"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_019.png",
+      "path": "Resources/Images/ayt_polinnomlar_019.png",
+      "hash": "92CDB359BA9148FD05790C7A53644F2054E5266530D6AE3DC29D1CD3FF7F128B"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_020.png",
+      "path": "Resources/Images/ayt_polinnomlar_020.png",
+      "hash": "9B5F537171272162927D7B088486F55FFFF3FC37BEE0589D45DBB3D5C097EA6E"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_021.png",
+      "path": "Resources/Images/ayt_polinnomlar_021.png",
+      "hash": "10CDB7713117F78E62CC6A1A15A2259A5711CA82FEC8CC6EE659DF8F4ABD6648"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_022.png",
+      "path": "Resources/Images/ayt_polinnomlar_022.png",
+      "hash": "C6D509F3014C8775FAEEFA2CF0907025A9D0AAC5813E41299AC7BB7D5FE43E6A"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_023.png",
+      "path": "Resources/Images/ayt_polinnomlar_023.png",
+      "hash": "F2597B91B12EAC6A7294D58E9DE02AF4DC58F3DC06BA170060AC12AFD8FAE825"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_024.png",
+      "path": "Resources/Images/ayt_polinnomlar_024.png",
+      "hash": "53F0C5A3FC62605E85CE2DAA05C1BE0878B57ACEA955A24F788CF57E36DCBF8A"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_025.png",
+      "path": "Resources/Images/ayt_polinnomlar_025.png",
+      "hash": "ED266947B4A3AE298CF15D57C9C3561BD6F7001ED2A5518488765053B107E3C2"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinnomlar_026.png",
+      "path": "Resources/Images/ayt_polinnomlar_026.png",
+      "hash": "DA7A6BD6F301B86D9805ACCE4A47BBDE03902D55B2D5E4784E3BE4E55CFC0C50"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_001.png",
+      "path": "Resources/Images/ayt_polinomlar_001.png",
+      "hash": "55C1249E50AD6FD742074D56A8DF3393E9491D9144018D249255B7D0B692D87A"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_001.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_001.png",
+      "hash": "55C1249E50AD6FD742074D56A8DF3393E9491D9144018D249255B7D0B692D87A"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_002.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_002.png",
+      "hash": "621D82947B76F60E6DE8B30CC6969CCBAF7B8D08A0B725BD49117331FD998D18"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_003.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_003.png",
+      "hash": "FE69B1D162B1DBD0AD669C681BA6EE3B0214FE119AAC65FF7A3254E3F857863C"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_004.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_004.png",
+      "hash": "12E8AEAC1B8BD208B36DCC1155DE0EFE6022F6DE23B6C82E2D10E064B55A9235"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_005.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_005.png",
+      "hash": "C7F280D77CAA41C1EBFE25D82CA4F9CB25E66B1C9656143FFD2183885444F4D8"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_006.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_006.png",
+      "hash": "74E9568D14457357843063DFDA2AED7D3377A71803E9DBC1878CA069EC68A5FE"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_007.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_007.png",
+      "hash": "F80484E92096574EA72D50A1E6E66ED9754EFA519BC5E966B82627B14A0315AB"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_008.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_008.png",
+      "hash": "013DF8BC6D7C84FB1B9FDFF21AD6C4019380972D4B872345151A724716F9B2F0"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_009.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_009.png",
+      "hash": "C9DD846D5F3132C54A24B6039C5EC41CB95DE8071272BECCD8AAD22DE1D81201"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_010.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_010.png",
+      "hash": "D155C604AD1696FE4E6888F6BA2A01FC5A5E490E6E9B6F187BB2B39CADCFCBB9"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_011.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_011.png",
+      "hash": "FAA90EB0FCFD27F90032BC5F17EB84EC5D22334477750E786E06ABBEA03B28CD"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_012.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_012.png",
+      "hash": "C117F389E3944BB5B9ED330348485C49733E12F5BB5CF304913BADDB70880C56"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_013.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_013.png",
+      "hash": "EECF9798AAF69E7AFCE32B735F186C6D988F8FAA844A23634F65AC39E6E1B301"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_014.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_014.png",
+      "hash": "9AC30DF502DBF11468D6C47F47E747048F9AD880B976DDC5C12D90171AA961F8"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_015.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_015.png",
+      "hash": "F18A5B79B44AB7066DF59AB3D1EB2E37258CFC0E8652CF1DFF367FA5AD324152"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_016.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_016.png",
+      "hash": "341079F97DEC56035C459C7E903C6FE7554E8D5A980F75314E3CCE33EF682CFF"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_017.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_017.png",
+      "hash": "B327C3F40C2A1979C2425CBC5446A6B42FAD3313E46A3B7A1E4555E840129214"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_polinomlar_test_ii_018.png",
+      "path": "Resources/Images/ayt_polinomlar_test_ii_018.png",
+      "hash": "B98F4972DD0F984FBEBD2D197955968FADF7699852D889F167BE690B0B53F1CC"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_001.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_001.png",
+      "hash": "A1ED0BCF4AEA561CC124340BA40F3BFD10354FF8C6AC017F9F49F5969EAD0214"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_002.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_002.png",
+      "hash": "B06372F303E8FD614B39F2E69BCEF1223C20DD292D63ABA230E96ECC73D6B4A9"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_003.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_003.png",
+      "hash": "93981484D04DEC5864454DEFBAC5BCCF2B6CDBC2B187AD97E2352F638BC07F90"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_004.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_004.png",
+      "hash": "36A30F0A1B4B12AEF64D2921B0160EF28DD3D08902AE641755D5C4143878ED3E"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_005.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_005.png",
+      "hash": "F073529306AE2BBE5F0F51FC0BDD2FF7EB163729296868FDD27E964113FF2831"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_006.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_006.png",
+      "hash": "2D41FCEFD99E83F7AA217BFAB8674C6EE3F15AD6DF2155BE4D4F637DF25E41D1"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_007.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_007.png",
+      "hash": "81513B7A7AB277FEB8DBD5EB7F2CB8AB22D932A03E9633970E99B2F8F6C57987"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_008.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_008.png",
+      "hash": "24A72AC57BC43B12064F7D1E1DA83C049756051F2D1A8D614CFE54CB53D09955"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_009.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_009.png",
+      "hash": "5B12D2E41766B64C9A311023A74162447D42DB3F84D97945F2B230E4EE2273FD"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_010.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_010.png",
+      "hash": "97A54F68D73C1D5C843B3E7700EB76E661157829A2D9043C61B5FA19C46177DA"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_011.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_011.png",
+      "hash": "12C61C3EC7A50D7AE4021520DDC394A6482A653B846F9FA34469EDC2F7F30591"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_012.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_012.png",
+      "hash": "C545F29C090E8804362981A20AD196CED6F8831EDBB75287416C695B0DEA7231"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_013.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_013.png",
+      "hash": "DE49F101CB0E99C6028BED623F890C739000BAAB157F6E2AEAEA19BD418587F4"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_014.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_014.png",
+      "hash": "9F612422DFAA2AD91C971F6996F41F37E6832389C15594F8A2AC75EEBCCE6FFC"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_015.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_015.png",
+      "hash": "8172A07369AC997AD428A92E16D44B9EE427447D94A6766C68A211AF1A6DF69B"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_016.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_016.png",
+      "hash": "D5683A6C18AABDA7E4B9E8C1A0DB8F1890CCCDFDABACF2AA7F9311508930C2B1"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_017.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_017.png",
+      "hash": "01631DE575B64AF32754C600D3076C8AACF3A4C8C8A05A342BB3E47EB4D8EDD2"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_018.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_018.png",
+      "hash": "E2591DD9525361EF441A7241BD11DD8D524B40CCF86E9A7DE377AC4A4E95F3D0"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_019.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_019.png",
+      "hash": "E87E0789FEC5C03DAB470D28C20A11BD165F848B1F95FAC94B9FF8FF3BDF25AF"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_020.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_020.png",
+      "hash": "206B5AA9C6E8D5CAEE9E18A6D3B6DE7B7BF0DC0590F3986BC33F6399E6C7149F"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_021.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_021.png",
+      "hash": "76C22D73DB593E103765DF1181CDA1400FA155BCEFC3C50409D6EE055AACA3FA"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_022.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_022.png",
+      "hash": "44621186A92F1F5BBD9356D71CC0331177DE6716B064271B4D7B5E56195C2FF4"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_023.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_023.png",
+      "hash": "63E57E6DF57E91126AFD5B6725C46703CEADB58C29FAC44655F48BBD7655073B"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_024.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_024.png",
+      "hash": "728BB0935EF17950D846916604A4D7FEDB899468CE47467F279543C9574157F7"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_025.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_025.png",
+      "hash": "14A4C7BF17CACD3D54F749BFB05F0DF0745A0D44A88908C4E437E16D9FB880EE"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_026.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_026.png",
+      "hash": "46251E60F044C253764FD3DD2051DD14068DCE3220B54A072C8CFB375F0C28CF"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_027.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_027.png",
+      "hash": "8DDBA6732B08E1D918DD17C79F6922D197946891EA5235ADA096ECF10624F18B"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_028.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_028.png",
+      "hash": "96F092851A7E5DB291C499FCC813E439D7DEF84B5E971A7142D6E1E5D541B77F"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_029.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_029.png",
+      "hash": "27ECB6CC882139817B04B87293686303AF61BD6AA350F87182A28F06F4E980E4"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_030.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_030.png",
+      "hash": "B7913382E9537ED9B1D2A9BD56A12A1A893D322524B41203364EB2CF62F79126"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_031.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_031.png",
+      "hash": "51CCB236BC747F0E5D6A92D369D63CDC2E185EB1485877F5661E72A3E0D1813B"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_032.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_032.png",
+      "hash": "B56FF72BB552A6B432961123E66DDBE8299C51DFD9005ED3DD17998B00622569"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_033.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_033.png",
+      "hash": "677EF4C285FAB04EE10B42C882B1627C0E7DE02B512FF6CD87A0CA86BAED2465"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_034.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_034.png",
+      "hash": "64349B476A85F17DDB212639770CDCA33B099A1BECBF9EC5423FE4BF451E5D04"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_035.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_035.png",
+      "hash": "D4B42B7F0F38B19EABF8D7BB58E560B5AEC33E94FCFC45FED1EE0ACCD1572B45"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_036.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_036.png",
+      "hash": "CADC59933860BF83A53FBD45B1EBCE27ED73C5888ACAEB992C73AB39DF341E04"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_037.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_037.png",
+      "hash": "83EC505C0B845F0A9E57A1857B3CBF0C1F09846896603AF9C4E907429D89E175"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_038.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_038.png",
+      "hash": "0AF0E8652623F9DF36A0BB9115B72370E8BA2AD07FA350603359A02A83D3A04B"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_039.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_039.png",
+      "hash": "79608527062D2B3D585A40292A9C1B50CD2204E790301328F99781A47450835F"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_040.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_040.png",
+      "hash": "5D0289F6BC70FAE8F2DC61E7E0BD44E44F48339F3979F1F783DC60CD9A69AAEB"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_041.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_041.png",
+      "hash": "5A33DAB5FD59A023B729C8C8FBB118D9A7F36C990FD76B03AAB4D88A9287A6AA"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_042.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_042.png",
+      "hash": "F23E385735E9A746DF1C5064900EEE31FF43C4DA78116A911BBAEC48A58075D7"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_043.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_043.png",
+      "hash": "9E177729DF9AE45033B8EDFC08F94903AEFCE5906FCA60C0578EFFFD4B88099F"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_044.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_044.png",
+      "hash": "8658097BD96192F53F10733C67C310B3D786B4C4985A06C5A2923F9E4E7DFF2F"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_045.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_045.png",
+      "hash": "AC364C2440CC4FE8D77AAAC8E4AB8868F8D4791A94B69C29C760C06260BF533D"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_046.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_046.png",
+      "hash": "2F03E6BE97F386892B49C9F4DC4E60C29D938CE34CBBFAF8DC39DDECCD0FC0C5"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_047.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_047.png",
+      "hash": "963D0002DA8E8F45C41638B62B5B1925B68FCC5C4BF8D4567AC4BF53593C5073"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_048.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_048.png",
+      "hash": "74BF175D40A70EFC13B1F160BB6EDD6B069FCF77CDDC42A0F593A15686F65D7D"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_049.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_049.png",
+      "hash": "3FFC979897C0550363786A319266B6B20EC087CEC7E9B309F3A8DD31048A9FA7"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_050.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_050.png",
+      "hash": "ADE6734138360FDF6541216248396E4A289ACD9DEDBEB4696492C86B4B8E34CA"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_051.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_051.png",
+      "hash": "846617C0638D7B5D178B856CB7744C6E1B87EB306CD02F70A0C3428D4B7F2758"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_052.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_052.png",
+      "hash": "EB2558BEEC8BF5E9FD95D325ECAC6989605C3B554F3BF93B92CBE60F4CA29EB6"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_053.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_053.png",
+      "hash": "F3E30E4B673AF6F66FE4752D2298149D39298F2FA16F3BB1FB12AF2AD5E8A872"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_054.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_054.png",
+      "hash": "0627A56E5598DEF4682445A2669DF01BA363923E689D1BA361ACC5A02F639EF0"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_055.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_055.png",
+      "hash": "BC3691ABB1F30A3787A75E3395CBC1389BB9E80433CFC73888594CBADF570C77"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_056.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_056.png",
+      "hash": "6201DAACB270F3444F1EA002571DF6B863DABCDB557BA00D629B767B0FC5CA71"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_057.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_057.png",
+      "hash": "0F22D8F6C9EF20B4108DA93578B5CFC4EA81DD1FEFA0C0E49B3DE53327946F1B"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_058.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_058.png",
+      "hash": "D9E9C0D457DE9426CDAF49753A31F75F5C78062EDA845EE7D514493468A3EABA"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_059.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_059.png",
+      "hash": "1B43FE4385F76E276BBDE4486673D2F3F71CC1972DEBCD116BAE767496E0DFBB"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_060.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_060.png",
+      "hash": "5DEC33126A82398B7FAC6BDCE2B6D5DB31F1FEDC319BE8202F3F225EC8EF5FCF"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_061.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_061.png",
+      "hash": "55A893DCF993E9919CD851CBA143A7649327C0A957F8609E30E8D50627747A8D"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_062.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_062.png",
+      "hash": "C9C8C1B78244A93A09F46D57DF3FEBC4B8A68292C76C1358FF4419E58542E5FB"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_063.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_063.png",
+      "hash": "B70384369C6368C2766F763DC45A8922F24BEF7735D689578ADBA44DA7C03013"
+    },
+    {
+      "type": "image",
+      "fileName": "guvercin_yuvasi_ve_icerme_disarma_prensibi_064.png",
+      "path": "Resources/Images/guvercin_yuvasi_ve_icerme_disarma_prensibi_064.png",
+      "hash": "BC303425617D102AA2DF29A3E7491772DEC0122B4464A61C69B603CBE3800F76"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_001.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_001.png",
+      "hash": "B14E41AF459FC7AE0A872C2D722955C1A3E9991D9409872D23F3AA020AE33E21"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_002.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_002.png",
+      "hash": "EC034EC46CFCBA338C5A3FC9572F94D9695730D9CDE384F6D5E935C8D35F4C6D"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_003.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_003.png",
+      "hash": "772F976016FC80D27C13228A1219AB6501F96261A0462041C1A383C5644746F1"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_004.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_004.png",
+      "hash": "6F6EC0ED97BF423E08E3E53891461ECE1207421104DA8C13C3880A04A20F48A1"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_005.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_005.png",
+      "hash": "ADD36CAD7860055969AF3D45C964B739048C823BB66DDCCF3D3488C295EF2063"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_006.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_006.png",
+      "hash": "A5008B35B31BA208A8EB601B122742D6BBA65714FAA418161218EA348E9FDB3E"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_007.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_007.png",
+      "hash": "6B1CAB339A28A9152213656EBFDB323D9D24A48FE1DA325747AE479C3EB2E4D6"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_008.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_008.png",
+      "hash": "C1D7C18AB987679F5A71023B378015B03658007559B11F1006D304BA701940D0"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_009.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_009.png",
+      "hash": "51CB6B9CAC1DC96ADB7659D9B2082CBF55A09172DC8554DE2D9F52DB9DF0B3F4"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_010.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_010.png",
+      "hash": "857DD351A5F1ECFD564AE3F8820C374A279F9D5CBE49FF8C6B0C7847C11E98D7"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_011.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_011.png",
+      "hash": "6D1DF42A5A4D3E2E66F9561B7C6C1B510BD7DDE6BA6C55DFFB509F8761E34CA3"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_012.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_012.png",
+      "hash": "A6E2175C68787CB412B204939FE5CAD472ED313BBCC03E7A8339A135D8BE8C15"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_013.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_013.png",
+      "hash": "4B2268AC169DB1FD3FC747F52EFD916E2A373F5238B82F1186CC7928C2C8C2AC"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_014.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_014.png",
+      "hash": "2B608788668FD3D7DDA9BBF7D53CDDC3D802E561F4D36EB60EAA3F1FDAE780EE"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_015.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_015.png",
+      "hash": "4D983852D35460AE9338E256D7CEEB9759B945E1B28F5197B652B641C1F26D6D"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_016.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_016.png",
+      "hash": "1913AC03A5815EF5B989149AFE086FC5412A2BBF750C3789BE25835FDE0751FB"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_017.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_017.png",
+      "hash": "DADDA2B0C1756B45E16DF1205F3C757242A4CCF2B3D434ED73ED5EDB9D522BA4"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_018.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_018.png",
+      "hash": "9CD3B0AC1F5F8F7F9450F5CBF27CAA8FB3A754626EBAF378EA9B4DACE84280DB"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_019.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_019.png",
+      "hash": "582BF16A58214E8AA6A5BBCBEE6CD5AC282740BE286CF8A85B45FA6A16AF5F20"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_020.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_020.png",
+      "hash": "B8ECADBC14E91463395E23706289ABB73C9624BDC3694D633AEE590C5201483F"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_021.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_021.png",
+      "hash": "CC5022D491C70CCFA7098C1544B6F34D8B930B519B347F38A124D57F8B29AD97"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_022.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_022.png",
+      "hash": "F9B908507DE9365725D1075B9EB92E95D8C83CC1A3B6A923D0B1A700ACB7906F"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_023.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_023.png",
+      "hash": "C3B7D093E145088415A8E1DD657A23E74DFA77CDF454ECBEE4DC5C070E17FB38"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_024.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_024.png",
+      "hash": "E1BE8D2BA1676CBB61C3696E390347F8EC38C0BA52605C8301CAD848257C2ED9"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_025.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_025.png",
+      "hash": "F8D737777E32BBCB36D5C95FCF2D95FD9BABC711CD60A7C5608C59BE9829E6B2"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_026.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_026.png",
+      "hash": "FBD5C6AC81FECBF24AFAC85BB10AB21FCF0AEE9F0DEF8F2381BC1772BA2BD527"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_027.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_027.png",
+      "hash": "27E73DFBBDAC256C3AB8C6D5A4EE35B451F2BC2017DE9FD35701A1AF0ABBE557"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_028.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_028.png",
+      "hash": "5AD9E96C20B81E66E06838DB692DEAC68BDC4D72EFEE45A6EEC98A516D6404FF"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_029.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_029.png",
+      "hash": "349B3EC89470A2CE5329397D38B98308F89A1CD48D94B9D53B27DAB7E3EA4E91"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_030.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_030.png",
+      "hash": "44C73F584C3BF958B593CB5E6500DB1D0B5A43CEBF9822428A515E861E013A25"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_031.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_031.png",
+      "hash": "5741C7053867631B74DA33A82CBD4E70EC01FDA3D2E783D78EEBA8480B9C8F38"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_032.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_032.png",
+      "hash": "73195EE50EBC1053022F285DAF48261C379DB5D97D198B5E8C599ECA810788F0"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_033.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_033.png",
+      "hash": "A35F3166F805F6A86A6542CC0DB068F9FB2A4906CD2EE373B41A0EEDC41AB465"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_034.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_034.png",
+      "hash": "E337ACE6319D9991E16C20E2A355A83E3AB86BEDFBA8B01893265D03A77FE971"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_035.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_035.png",
+      "hash": "7C349F13131B03CE9025DCDA3E048B5B21808C87BE8793A6C5227C49C692AC7E"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_036.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_036.png",
+      "hash": "415E74A5F71B2DDF789C1D0EB76BCA22AE4B9AB6DDD8E8C553CF63342B8F9C1E"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_037.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_037.png",
+      "hash": "0880D3089955D85E8CE05102B838CEAB7E5C35FC3C2C07321FAA28F6C8AAEA82"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_038.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_038.png",
+      "hash": "CBA5544E7A17DE2E12B532EDE83B7CD1B08C255BD5B811ECD4830154FA73B6A5"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_039.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_039.png",
+      "hash": "913DADE6C6EF1F5AC361086EFA93F9451BFB63FE6D529712FB5ECB55C48975B6"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_040.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_040.png",
+      "hash": "D685E6CD0C01A8D9B8FC0657010B335BFA85775F8B45E667605D887587248CEF"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_041.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_041.png",
+      "hash": "CEA3A9A2BCE5BD5BB2CED5D76933738F85656B3C2DE31F05A7E446AFAA380B58"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_042.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_042.png",
+      "hash": "3CB9B33E8FB7175DFDA603FA9DF02A2B9E4307EDF5939E1E76CCFE1EA1F7866E"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_043.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_043.png",
+      "hash": "8CD1037FF18C2995E916222D1A06BDC052B5B9929935447AF39966B87AC6B40D"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_044.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_044.png",
+      "hash": "4334FD30A817079D70C3805AE503F569AF0EE1FC7A7D01D402424D55D3463AAF"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_045.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_045.png",
+      "hash": "26F99A072C2F8CEEBF08FA377108A770F33F00950582488B715FFB095F471242"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_046.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_046.png",
+      "hash": "6F036F2E02081F9A34958E372D486381E14B611773485FD582E90B29B63FD1CD"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_047.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_047.png",
+      "hash": "4D4C939329572B2DD7B59D3CB1D4187EAA8504251012A660E94443F67C37E7EC"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_048.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_048.png",
+      "hash": "AF12853F9F011D24F6F805FCE58BF12CE8FDC637E993AA129CA690EC44D51A2A"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_049.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_049.png",
+      "hash": "12DF8BD43641A8DE68A81EB7F9A548223B93E1B69F2CD75679213BF6689F126A"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_050.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_050.png",
+      "hash": "D0AE5950B3E60EDF7E73FFECE0728171E0FB9BE44D6AC36242670E7151E2833F"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_051.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_051.png",
+      "hash": "78F14F5AB3B2E97CB305D48115885705F624D17315D113BB5E4CF53F36E0332B"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_052.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_052.png",
+      "hash": "93AC9E0BCC263496720D723F0852A4B1404F78C9A322305ED02B4849F4E8A745"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_053.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_053.png",
+      "hash": "785109C2B900FDDD4F1EE0CA0AF44BA8F255DA1CCA19BBEFA1B6EBAE8EA36FBB"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_054.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_054.png",
+      "hash": "734E43E296DA2A13412085704FD0669B87F0446376FF83F99D27BBFE32A071D1"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_055.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_055.png",
+      "hash": "646C6BA91492AC32D2D901DB4BB971F161123E019D63D91C7E6682EA04713FBB"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_056.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_056.png",
+      "hash": "B3A5FAE060F597B01038CC3CD847EE718AFDE295AA8F5916CFC1DB55CE64C7CF"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_057.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_057.png",
+      "hash": "92E9E09785F8B0F804D806DDEE0D7387F15051735942282E7C8239FBD1232205"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_058.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_058.png",
+      "hash": "857DD351A5F1ECFD564AE3F8820C374A279F9D5CBE49FF8C6B0C7847C11E98D7"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_059.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_059.png",
+      "hash": "AA8C89DD3E0FDE0AD2BBCF81001196D3590014DC0B20AAA2C637732F5FE7AB46"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_060.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_060.png",
+      "hash": "3146CB82610D8880AA4BEC2AEE6664E904EE7975031FC6A9968F37AE4AA719C6"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_061.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_061.png",
+      "hash": "BA589A235007FA16433D63B3B666A0DA5F216E75230A4B8D264ACABE8F8221F1"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_062.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_062.png",
+      "hash": "F36B473127D73E3EA40ED9D1B6373A70D5E1E6D788BB7CD5F12CDA288DFB5935"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_063.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_063.png",
+      "hash": "30658232FCD5964E71A7E13D4BC852BD19870D9020E7707091A1904F29C6DCDA"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_064.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_064.png",
+      "hash": "B8C2EC52F5C1A4DE23A9167A078A626AD129523E9919BFA8C2315074A1150953"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_065.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_065.png",
+      "hash": "B6F256AA5E3B174A23FCFE1DA77F5E4521208C89988EFC1BC0784ABBCC283D46"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_066.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_066.png",
+      "hash": "2E7944022C21501CF0857520664D72EDF655C1709552270675419CD602D12312"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_067.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_067.png",
+      "hash": "6B65C00FB021EA9CA428CFCC6F008FDFA5D488A753F30905962F416A8EF802BD"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_068.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_068.png",
+      "hash": "674FABA3A183A1DCE58F973F080F2388070D514836DE75F2B1EAAE3996A68A2F"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_069.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_069.png",
+      "hash": "69E26CEA2C205BBEB1D6AA85C6FA081D6F9C2B6EC968811E78540E3176C8C71A"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_070.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_070.png",
+      "hash": "2561626575AA244F341938DEBBC5932139FD3CD601EFDBE6EA5CC7A9A53F72B4"
+    },
+    {
+      "type": "image",
+      "fileName": "permutasyonlar_ve_kombinasyonlar_071.png",
+      "path": "Resources/Images/permutasyonlar_ve_kombinasyonlar_071.png",
+      "hash": "0EA1DB237D9B529EE3CEAD1D1A2F12A0DFEB1CE26165E652F7371134FB6A58D4"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_001.png",
+      "path": "Resources/Images/saymanin_ilkeleri_001.png",
+      "hash": "2291CEAB3B1B6E39D3159F75308ECBAF9937203ADF293004C852147C4E9F0DA9"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_002.png",
+      "path": "Resources/Images/saymanin_ilkeleri_002.png",
+      "hash": "3BF3930750D73A8621508D5A6DA58FBD2042E4454D481449F48AED74C4804E07"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_003.png",
+      "path": "Resources/Images/saymanin_ilkeleri_003.png",
+      "hash": "35F2047A26CCE94A134019768B8E1300AE5B3ED92E10E775F2AB7A560451DC65"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_004.png",
+      "path": "Resources/Images/saymanin_ilkeleri_004.png",
+      "hash": "C57F5298D256EEB5913FD9E126BAF1E98B476650725ED11284752EE075327A92"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_005.png",
+      "path": "Resources/Images/saymanin_ilkeleri_005.png",
+      "hash": "2E4EF6C6A2264BEF6C05AFFAF7C951FEB091BDCCC89F51A2BCD74DEBB62B8959"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_006.png",
+      "path": "Resources/Images/saymanin_ilkeleri_006.png",
+      "hash": "BCA86DC8A9D65242F1E867381FFA770E2A9621AFDEB4039CD78A6358C0EBB123"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_007.png",
+      "path": "Resources/Images/saymanin_ilkeleri_007.png",
+      "hash": "2CBCBCCB4FC17DDFA205379B751D566AE98ACF0B5142A88A2BB8031E19E3F9D5"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_008.png",
+      "path": "Resources/Images/saymanin_ilkeleri_008.png",
+      "hash": "94CC6C78AC22577149F51796916D61BA9ED8B8D8F156B3106FEEEB787A47A03B"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_009.png",
+      "path": "Resources/Images/saymanin_ilkeleri_009.png",
+      "hash": "46A8C80093882C49DB9B57C40A9748E66944167A18C8FBBA0665896B3CDA819C"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_010.png",
+      "path": "Resources/Images/saymanin_ilkeleri_010.png",
+      "hash": "499D4820DEF4E39C3DF8861E47F4DED5F9E932372AC95F80DB1D98B60CA3E165"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_011.png",
+      "path": "Resources/Images/saymanin_ilkeleri_011.png",
+      "hash": "49049E21D2D687FAA9F240962A53DA02CD057A34864F7A84C2D89B8B07E1784A"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_012.png",
+      "path": "Resources/Images/saymanin_ilkeleri_012.png",
+      "hash": "C1E7A9D6C3FB110E8874CC203A0E34FA1AC543CBD239AC5973E817EAF11E8CDC"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_013.png",
+      "path": "Resources/Images/saymanin_ilkeleri_013.png",
+      "hash": "E31A6EA0F23E590909DF30DB1B15B37315F9D15A4A334C282E38CA4489CDCBA1"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_014.png",
+      "path": "Resources/Images/saymanin_ilkeleri_014.png",
+      "hash": "2EC0D3DB3BA613269238D93FB58C1065C8DEA97EA008CED1308A01EF65BC53B2"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_015.png",
+      "path": "Resources/Images/saymanin_ilkeleri_015.png",
+      "hash": "5BE95DC09748C2ECE5A7E1D6D892C00E377CE6FD625FD1FE3C52F333AD6079ED"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_016.png",
+      "path": "Resources/Images/saymanin_ilkeleri_016.png",
+      "hash": "B067BEDB35BBAE45018FFE81BE87962638E1AAAA3A19C0E96399A21D96823DD3"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_017.png",
+      "path": "Resources/Images/saymanin_ilkeleri_017.png",
+      "hash": "F141D7D98D515C176F24714CC380AE04EB9F599BA6DDE0DB3D12A0BA7EA092B0"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_018.png",
+      "path": "Resources/Images/saymanin_ilkeleri_018.png",
+      "hash": "95F99A358DABD42AF6B2F7C202F1CDF8E43D168555A1AB2B61D48EA3D5DF1E08"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_019.png",
+      "path": "Resources/Images/saymanin_ilkeleri_019.png",
+      "hash": "C68AA22C9379F7757AE617E442910987FB6AEA33E809042D6AB8E0A768601F3E"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_020.png",
+      "path": "Resources/Images/saymanin_ilkeleri_020.png",
+      "hash": "6B096B451942B015B5130EAD1E65F1C7C9A22FC2A40107488F68A46BDA9A1E40"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_021.png",
+      "path": "Resources/Images/saymanin_ilkeleri_021.png",
+      "hash": "9C5DC8E363D73AD8EE94B951784154DEBAF0D795841EE4B9738E7A8EE0462BCC"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_022.png",
+      "path": "Resources/Images/saymanin_ilkeleri_022.png",
+      "hash": "BBF70C0C5DE4E600158E8032CBD1ACA36C92C540E14D3EA4749C4984DD876C80"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_023.png",
+      "path": "Resources/Images/saymanin_ilkeleri_023.png",
+      "hash": "C2BA2890FAB35BADD4734443762AC2EB3DC6BEC190FA3163B0580B17752EBDCD"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_024.png",
+      "path": "Resources/Images/saymanin_ilkeleri_024.png",
+      "hash": "153BE0D38B5C7F661F6B481C840C80DADEEA1DC99C01402D5323E6C149EB137E"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_025.png",
+      "path": "Resources/Images/saymanin_ilkeleri_025.png",
+      "hash": "F64EC824AEC651E6F2210E96F0BE7BD96F726B09219BCAECF7E374CA1EE85CAD"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_026.png",
+      "path": "Resources/Images/saymanin_ilkeleri_026.png",
+      "hash": "9F571C0F5F796C2687864607063DD25C5EF11AFACC4C0E247C1900CA12AFF956"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_027.png",
+      "path": "Resources/Images/saymanin_ilkeleri_027.png",
+      "hash": "D4B42B7F0F38B19EABF8D7BB58E560B5AEC33E94FCFC45FED1EE0ACCD1572B45"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_028.png",
+      "path": "Resources/Images/saymanin_ilkeleri_028.png",
+      "hash": "B46D8765B82F77726E23711296AD57DC0A36AFA946D0B6E9663053414356C875"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_029.png",
+      "path": "Resources/Images/saymanin_ilkeleri_029.png",
+      "hash": "9C15A1331F19AC0F76ABB91F758A1AEA49FD65245DCD4BD7BD08F72D63B41CF3"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_030.png",
+      "path": "Resources/Images/saymanin_ilkeleri_030.png",
+      "hash": "47C91918DEA2EEB6EEC5CEAD1885FF725A71B63431CF2DBE2998DD85DAC191CD"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_031.png",
+      "path": "Resources/Images/saymanin_ilkeleri_031.png",
+      "hash": "637380D0CBE4A21D48779EEB22ADE716744D1898FE6F9139C310A60BE2D0A936"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_032.png",
+      "path": "Resources/Images/saymanin_ilkeleri_032.png",
+      "hash": "2E4C03A573D3E9B65EA80CDF949EFFC38E4C98C0538F830D715B3ECE94542DFE"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_033.png",
+      "path": "Resources/Images/saymanin_ilkeleri_033.png",
+      "hash": "D99022FA54B8E07FA09CDD8C70015659FDF17A1870962661BD79FDA2E11E90A7"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_034.png",
+      "path": "Resources/Images/saymanin_ilkeleri_034.png",
+      "hash": "18E5313D46DDAD3E92B330F2878357D3B329368F0F203B525ABCCBBDE2B1F7A5"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_035.png",
+      "path": "Resources/Images/saymanin_ilkeleri_035.png",
+      "hash": "DE66AE2B5B52CFA344AD129AF288FE6DD0DE29FC386F2D6C197B48C9F9A1F4B1"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_036.png",
+      "path": "Resources/Images/saymanin_ilkeleri_036.png",
+      "hash": "BD0F9E0DDEFA6252EB451A649FECC669BCFB48705974B412DAA4F099702EA357"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_037.png",
+      "path": "Resources/Images/saymanin_ilkeleri_037.png",
+      "hash": "E07646763ADC8D059A45C6D71542C2E9443D3ACC33DB561A4477BF1D04343DA7"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_038.png",
+      "path": "Resources/Images/saymanin_ilkeleri_038.png",
+      "hash": "EABD2D259FF0FFE7BF864621E01FCA9518606B087E52488D4E3C2CC651142672"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_039.png",
+      "path": "Resources/Images/saymanin_ilkeleri_039.png",
+      "hash": "CE2D5CE76AEA57A714BFCF4FED3A7E362037AB5B401072898FBB9B660EF58859"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_040.png",
+      "path": "Resources/Images/saymanin_ilkeleri_040.png",
+      "hash": "49C4BEA4B4B182A9D3DC280711EB30FE56AA5F1F3AA7C54FB65ECF122DF70934"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_041.png",
+      "path": "Resources/Images/saymanin_ilkeleri_041.png",
+      "hash": "099B325F9D7FBD54EB5E7490A1A4824F28E92322B56A1C9C3504DFB216CD773B"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_042.png",
+      "path": "Resources/Images/saymanin_ilkeleri_042.png",
+      "hash": "648FB25B82015EFD6ABD19BF815AB9AFB5FF90DA9E4EB5D293E534A89A0556C4"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_043.png",
+      "path": "Resources/Images/saymanin_ilkeleri_043.png",
+      "hash": "E33EC918FE4890B64BDE87B99709076F2D983009FC0A3EB6B57EC8DCC022E432"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_044.png",
+      "path": "Resources/Images/saymanin_ilkeleri_044.png",
+      "hash": "4904BF7EC91B4976585743A73EF29EC022E936194A1E8264C0B9727F45ABE1B2"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_045.png",
+      "path": "Resources/Images/saymanin_ilkeleri_045.png",
+      "hash": "468DCCB5E6FA43932B4015D42AAA3337EE5AD8363DA26BD6786D1DDE5451B8AE"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_046.png",
+      "path": "Resources/Images/saymanin_ilkeleri_046.png",
+      "hash": "5551F44E445329414627ED2A68E080BBE1E98B0CF27D972AC7E197CD860A2F61"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_047.png",
+      "path": "Resources/Images/saymanin_ilkeleri_047.png",
+      "hash": "7F69F045A6406A53D7D14500B36243ABECD195F36F017D63A34843BECA9BCAEE"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_048.png",
+      "path": "Resources/Images/saymanin_ilkeleri_048.png",
+      "hash": "61362A6EE77416FE55F500908CD82155ABDC74BEE667AE5D2A0E2B974A94A8DD"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_049.png",
+      "path": "Resources/Images/saymanin_ilkeleri_049.png",
+      "hash": "ECC0C2434474E999A17AD02B2792A34CA9B847912667DDD40EC088293938AD86"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_050.png",
+      "path": "Resources/Images/saymanin_ilkeleri_050.png",
+      "hash": "6614A24A1CD53F78BBCD8158B25ADD87B122AF9CEEDB6A732E197057E0000266"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_051.png",
+      "path": "Resources/Images/saymanin_ilkeleri_051.png",
+      "hash": "116103980EFAD810905DFECC4271CCDDC9F1A72D8A9E5D5520EF5C939379AE0C"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_052.png",
+      "path": "Resources/Images/saymanin_ilkeleri_052.png",
+      "hash": "94AEA00EA7D30E2317A9723F3921DAD3BD0DBCABF3C7EAFE0B2292972B5E5901"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_053.png",
+      "path": "Resources/Images/saymanin_ilkeleri_053.png",
+      "hash": "396FC0A4E56687208AE787FE89F636A93E3ABD0746607079A5238E536BE4FA46"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_054.png",
+      "path": "Resources/Images/saymanin_ilkeleri_054.png",
+      "hash": "82E51D38A4A109597808F453B06C1B5C26BD36D40351A2F418CA12FBE84BAD1D"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_055.png",
+      "path": "Resources/Images/saymanin_ilkeleri_055.png",
+      "hash": "628BFD0F4FBEDC6DF9ED3CB0EBFD24CF458D28A499250E7A6F6BBF010922FA76"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_056.png",
+      "path": "Resources/Images/saymanin_ilkeleri_056.png",
+      "hash": "CA13F96752804ACC38F678DF80046D672E8DB24C575D21B95B7FAB83F220C64F"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_057.png",
+      "path": "Resources/Images/saymanin_ilkeleri_057.png",
+      "hash": "52A074454F30FB701CBCC6A98D59265947F65E98393917055D9B9021AE78D36F"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_058.png",
+      "path": "Resources/Images/saymanin_ilkeleri_058.png",
+      "hash": "9FBB8DF48F9BB2C7D53331B8E50BEE458616ECCE3C6FADBF93591FA955EECF56"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_059.png",
+      "path": "Resources/Images/saymanin_ilkeleri_059.png",
+      "hash": "E318891C00A1EA88820476355FE6135F332EA2A352A4591EE8725B5906605A68"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_060.png",
+      "path": "Resources/Images/saymanin_ilkeleri_060.png",
+      "hash": "D232835C7D5C02C3AAB8DA26FCEE88AC73818F73BC014D42950014DC45A2B803"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_061.png",
+      "path": "Resources/Images/saymanin_ilkeleri_061.png",
+      "hash": "E699E688CF58DF54C663F22F5C4AB9067E8E540E3DA70C0ED61D1B6A52025C85"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_062.png",
+      "path": "Resources/Images/saymanin_ilkeleri_062.png",
+      "hash": "C68CFDBFD484ABA8FC0A4C15D5283CEE57BF3C08A7BD32E1962643468C65304B"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_063.png",
+      "path": "Resources/Images/saymanin_ilkeleri_063.png",
+      "hash": "F42631D605A64E20A20B9539673A72E61E00D6C11E6AD128ABCC4DF2E6B1FD4B"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_064.png",
+      "path": "Resources/Images/saymanin_ilkeleri_064.png",
+      "hash": "D4AC1BA462BB04255CEBC377A8F9801ABE3E75DA3F274537127348CD71B94A01"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_065.png",
+      "path": "Resources/Images/saymanin_ilkeleri_065.png",
+      "hash": "B483BAE59D47953563EE98DFE3167C1FC03B9D76E8224B57CB1B5C3F7131FD2D"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_066.png",
+      "path": "Resources/Images/saymanin_ilkeleri_066.png",
+      "hash": "A2F7D5102301633EBCF44422C3310CF00121805DE622F23A2E0AD3E6B8008C94"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_067.png",
+      "path": "Resources/Images/saymanin_ilkeleri_067.png",
+      "hash": "73291A7D162CAF2670DA6BFABFC87DE07A006FCE28396C933190100B967E7416"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_068.png",
+      "path": "Resources/Images/saymanin_ilkeleri_068.png",
+      "hash": "CF165C84A3A7745397040779753909506CEC56707BCDB7CFDCF130F7A7CB6361"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_069.png",
+      "path": "Resources/Images/saymanin_ilkeleri_069.png",
+      "hash": "7720AD6765ED2FAE9CEC865DBCB1CDDE9620EF847AEE2832FE6065D0C11C2521"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_070.png",
+      "path": "Resources/Images/saymanin_ilkeleri_070.png",
+      "hash": "28D71BC4AD63533A1DA6288031A031640779B8DBA3F758B7E4D054DCA6060362"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_071.png",
+      "path": "Resources/Images/saymanin_ilkeleri_071.png",
+      "hash": "5679F3CC0F8CB7B0B81FBC658A4085CC8C8C2A59A172544AA316FF5D024EDB11"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_072.png",
+      "path": "Resources/Images/saymanin_ilkeleri_072.png",
+      "hash": "65E6303C4201C9B99313F950CFEFA914772116FDD6595E1EA0109EA5954CD51C"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_073.png",
+      "path": "Resources/Images/saymanin_ilkeleri_073.png",
+      "hash": "46C14668561F41C4CA8F9CE2CC3CF4B801CC13D3189F996227F6C67A41B0F385"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_074.png",
+      "path": "Resources/Images/saymanin_ilkeleri_074.png",
+      "hash": "38EB43EB293FB732134736983586470A9B30E0FA61AC0200A4C9853FB9131CE9"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_075.png",
+      "path": "Resources/Images/saymanin_ilkeleri_075.png",
+      "hash": "438DBA1AE6F8A36509A066F159839E85DD3ACC174EA09DB646CDD99EA2BA86D0"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_076.png",
+      "path": "Resources/Images/saymanin_ilkeleri_076.png",
+      "hash": "FDBC2BF9D7C447836390D1AA10D3047B24B2DAAE70290C4EB0DC952AB2C84DD1"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_077.png",
+      "path": "Resources/Images/saymanin_ilkeleri_077.png",
+      "hash": "2F49500BAD08613D5F7DAA9AA9912D52E596326380CCFF71AB45C664E1D11BBD"
+    },
+    {
+      "type": "image",
+      "fileName": "saymanin_ilkeleri_078.png",
+      "path": "Resources/Images/saymanin_ilkeleri_078.png",
+      "hash": "AFBAB14188FAFB9C9A2F85A059D07C566CDD41F8E0A0904D57B73C1B452F64A1"
     },
     {
       "type": "image",
@@ -516,6 +2094,714 @@
       "fileName": "s_11_sinif_trigonometrik_fonksiyonlar_i_064.png",
       "path": "Resources/Images/s_11_sinif_trigonometrik_fonksiyonlar_i_064.png",
       "hash": "0B45D3D73F551C01412C80EBE408541D3BC8894703D4BC93B25506AE00C4032A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_001.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_001.png",
+      "hash": "5E8306275B2A3DCB517DCC4589EC178DA5B2F4EB119D0A2038B65EB46724DAAF"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_002.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_002.png",
+      "hash": "E2144A423230DBD559AF5EC00836AF0D3431D4CFD5339C403FD6A7EACEFAC752"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_003.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_003.png",
+      "hash": "AFED157D00785F18FAA79365CCE270F57288B903EDD736CA7B7B175822EB5B4F"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_004.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_004.png",
+      "hash": "2819E0E0D11D4ACCC9086E572593219B3561644A52EBA18C15CC961BE902EE00"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_005.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_005.png",
+      "hash": "8BD73E121686DDFF625741573068443CA9CB9A8DE94436ACEFD29748AB28609C"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_006.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_006.png",
+      "hash": "3CAF493217275F899C327F602B239AAF46A7BC2357AE55A35F0787A4F155B9F0"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_007.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_007.png",
+      "hash": "F93E1F29EA3B0C0AFD0952EE1194406405D718A1E182FEC9AB0BB8B6D6A9EDC3"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_008.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_008.png",
+      "hash": "A6AD1F96AF4F1EC4FF5FB5C15C7E3978800B8064D50F6E1975D954333545CD7C"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_009.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_009.png",
+      "hash": "109F6EAF5DEEA8D9F25C7C50733EF9E10BAD63EE0921339D3C747E56D5B53DBA"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_010.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_010.png",
+      "hash": "B9882EDC2B1EBE609B84EE8BFED5ECC005B925FCCF484F82B187C82DF38AB3C8"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_011.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_011.png",
+      "hash": "5AEDC6F32B52A89894D2100437C5D8B8B5DB95B14B34169A1B4008ABA77A8F27"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_012.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_012.png",
+      "hash": "34E7C57F91483B09438ECF38954314F33DCB4C9D5B16E7C759C12542DF5A49AB"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_013.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_013.png",
+      "hash": "FBCA1F694C86D13CBB1FAE198AB1C57A037F7A22D8D062FFC9BD0A9BA63BEB9B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_014.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_014.png",
+      "hash": "757B561F86A4047DF50EE2EABD5587557379EE067DA1EE6EB2FAAE92282946C3"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_015.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_015.png",
+      "hash": "195B4498FA0ECA5B486DC8E9B7AEB266894A51A99415E568D5B3F936C3CCE300"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_016.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_016.png",
+      "hash": "17981799ADD8CF5EF53E7D786A5BB24276B27B022B23B347A0F5EB10F84678D8"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_017.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_017.png",
+      "hash": "D73222C3A7188A0032BDC786A3E52C0554FEE136376F83D38350CD3303CA718F"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_018.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_018.png",
+      "hash": "EF76F24A0B00B12B22B4D72D980CD55B48D62C23301D87B3AD5F8DAD37E2266A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_019.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_019.png",
+      "hash": "6067CF4BF0739BD45896E7ACD486B7CB6C628C94DADB39760CA917E426C887AD"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_020.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_020.png",
+      "hash": "FFDE92420A573BE65D927175D6D2C61AC2EEFB1BEA31C312B1B3DC755D135E86"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_021.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_021.png",
+      "hash": "14C9D92828D5BDD8986973504D6358BCDD0C5474CDDFD344A8E6338E887B6F03"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_022.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_022.png",
+      "hash": "FCF68766DE962B9B1079E7C75FA21E2E2D2B727FB887C126896711563A068C18"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_023.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_023.png",
+      "hash": "F1B307F8CBA6FCE622857DA018B4FEA419F3563546356EB6D5B6D6C3E8263467"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_024.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_024.png",
+      "hash": "A1B25F0FE65512EEB3DFFB83930F1C27CF147E5CCBB7F066E83FD99471DFA1EF"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_025.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_025.png",
+      "hash": "54F407C6A12F2F38DA52FBF03C135F3B296E254FCE59905BE3B6568E3225F0EC"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_026.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_026.png",
+      "hash": "0AF54B42333E694832B1716E2B7CEBF90E25F83157C9C98C2DE19D6D87ED0FE6"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_027.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_027.png",
+      "hash": "AE8D2709E014564E715A096079338A132529301512C7D32273975924308A4FF5"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_028.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_028.png",
+      "hash": "F78A1C73CE051C7EBA147AD79DC33DDBEB716333CB3797DA7523A9628A190AB9"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_029.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_029.png",
+      "hash": "74A6222D2BA9074E872B40E0CC94E558512D9CAEC1F442CBBC41C178D09938E2"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_030.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_030.png",
+      "hash": "C122C33209336D6304B0C2F8B6B5B297E90A686EFA034B8479908F46E4FFCB70"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_031.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_031.png",
+      "hash": "E20A324E36FB5FC52F056208CC4B2A71C40F0A2898FABD98C9D0791969405E2F"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_032.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_032.png",
+      "hash": "33C75FAC8EC070BFD50076C137815AEB3E176965AB700A3EA41881E949867420"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_033.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_033.png",
+      "hash": "F4BCB744707AAA88E936A0F72383E3331B1352B65896E6F663D3D824C7489DE8"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_034.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_034.png",
+      "hash": "6159842DDEB5A5A8551EE9DB71DA9C270007105AFC5690EC456B8C3A4464BB6A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_035.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_035.png",
+      "hash": "81E6855CCDFF16860CF03FC12CEB8AD8F0F76A66FFDE6457AC3F5F064EBC931A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_036.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_036.png",
+      "hash": "8A056F047A733A22161C65AE06E420075282B502B957F484087071B1E3A15D94"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_037.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_037.png",
+      "hash": "E0699A95BF8797F1BBA7FE2933C3DE7198FC600324EC6C212B7810A562DFFFAC"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_038.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_038.png",
+      "hash": "B494762E207B0204B745598A65D217290F62209AA44282AFFE9662E171C27E47"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_039.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_039.png",
+      "hash": "2D002A142DC1E9DB438D359549BDB69255C0682E7B4883CF583D1CA56AE5CA8F"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_040.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_040.png",
+      "hash": "E0A99643759EA71DF7C5CE37C9E1EA33564AE05DCE7400AD927A70DA7CEF20B1"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_041.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_041.png",
+      "hash": "818D71C829027BD8E3C345501C89D4E2F98FAB973DAFDEC941208F89D2B653F7"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_042.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_042.png",
+      "hash": "1619F47195B764160B1F816207DFFA3A1071511D46FF7418BE7FDA9BA73334DC"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_043.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_043.png",
+      "hash": "9C15A6F37F84142DBE632A8DBE19CBDA3BCB9ADAAB70C62C98B587A0AB3C565E"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_044.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_044.png",
+      "hash": "19EA77549316421B07884C7215C9CBA981048E6C77972EC2349FFA8466E2417F"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_045.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_045.png",
+      "hash": "1B0BD05385373E2AAD6EE68268A067685D50B5D57ECF18D523D0C070E462679A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_046.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_046.png",
+      "hash": "54533D31AA6E62B159091526957CB60C2C064C94EC582B1805C85AAC2CC97892"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_047.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_047.png",
+      "hash": "F44B11FDC8768A8F1EC170A59E7FEE4FBADF34A264496779D427F6A3D821801C"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_048.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_048.png",
+      "hash": "FFCFA9D31785630AEF04B06137F2908C01757BC34872198C3EA014CF4137C915"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_049.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_049.png",
+      "hash": "D72B71F676AE04E8C20158DFE6C759F48FD4F1A48899C1D4C7B861AEA2C5DEF6"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_050.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_050.png",
+      "hash": "5E75E3BD2DEF86C50658A8759DEB85FB3B1D147E6982407BA25BD771CC559D39"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_051.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_051.png",
+      "hash": "F0037313038517BA4D6208E975B021D91248B94A5303263B3D4741AEDFEEE795"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_052.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_052.png",
+      "hash": "894178303636F7DC747FEC0BAA27AC305B60ABD4417C42E7BEE2A98D284A2863"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_053.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_053.png",
+      "hash": "B3B0828B49BE1B352DA77A65E466C586E07C2B31927C0AF570878BE6A06DE8DB"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_054.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_054.png",
+      "hash": "AE0FD2CB74A7D8E4B0E89133759CDBE35F8478023F39743310E2C28EE77730FE"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_055.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_055.png",
+      "hash": "73B5177AF907BD34096F89E1C2A2B1A46845E90045722411E3C605459A31B978"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_056.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_056.png",
+      "hash": "279EF85AD1E76E248630F55C5818DCAAF514381B4F7D8FF85B18AACCC6B3BB62"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_057.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_057.png",
+      "hash": "AAEFEF9B091EB32931B31FAD88E78488466BEFE4F3F9BABA00A96B85D5A71E1B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_058.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_058.png",
+      "hash": "6C49077512349916B6BD73B833B91ED93737D9AB79D58945C4C2B90E45C03E4B"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_059.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_059.png",
+      "hash": "0481CEC5CBFB3B6F536EA568BBC178B45E13BDEB0FADD46B42DE5D6682EB505A"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_060.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_060.png",
+      "hash": "CE4C6F2BEC9BBA2ED61DA726BC1E07F41AACC57A9A2CF1CA7B2214B8D22CFAAF"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_061.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_061.png",
+      "hash": "6E204CED2F255BFB40208330678F8E72EA15E0AA0F819459607469D5CC264097"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_062.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_062.png",
+      "hash": "4BA436FDD616B4CC8AFECF581434A90BBE7652618F0B288CEFD1EB7194CE4288"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_063.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_063.png",
+      "hash": "3A4CF99BFB692E9B2CF55904367D67D18D1A963562CAB60796273E4997D6F322"
+    },
+    {
+      "type": "image",
+      "fileName": "s_11_sinif_trigonometri_i_064.png",
+      "path": "Resources/Images/s_11_sinif_trigonometri_i_064.png",
+      "hash": "8D920332E8D0FFC1D861DDB6FC8BF7A4D42807E07982028E48B20BF43D79FD09"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_001.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_001.png",
+      "hash": "2BAD01BC8BE5C6B0A7E43A13AD6CA54A6765AA5B99B26E092F71EF949D01CFCD"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_002.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_002.png",
+      "hash": "4874AEE9888D120BBEF6E0C54C5FBB69109287FE35B3DC5100CD34B6F2E248CD"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_003.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_003.png",
+      "hash": "5BCA78348A7008F192AC6F2681D1131A9DFF0B39E5D85530C2AEAC993EC3AB6D"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_004.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_004.png",
+      "hash": "8E9465E28B9E281AC4B0F67542AFCE3D1BF28A96DCAC5F3F66A9E0B87F4B7F4A"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_005.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_005.png",
+      "hash": "1E63838F19C200EA5914915E3D5FD4FAA98251D9B2144CF50AB8B80ACB4369E6"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_006.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_006.png",
+      "hash": "E72D8ED4176EB7A750FE0397BAEC6189DB4B5BD0B56872C6624D2133C2B186C8"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_007.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_007.png",
+      "hash": "ACDE4D6A27DAB92819538DF35BC09638583E5E87344C40F64B97636856A9734F"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_008.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_008.png",
+      "hash": "8563E7E3A3B180601DB8995EE7CFCDF4446563E08A8E4FC3AC6166CBD0EABD09"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_009.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_009.png",
+      "hash": "3F703E61996B94D3DA087975D14C7C157E2A2F7EF0426785683BF711577D9F01"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_010.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_010.png",
+      "hash": "DDC585D96BA3E2578F3CB94CAA5773961EB194D1BD528AF9A5525B9334A296A3"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_011.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_011.png",
+      "hash": "76179DCAA4045A9B26B186E580B21FEAA2AE42C035EFE89DB2DA57F360E63B31"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_012.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_012.png",
+      "hash": "A3D4A986453AB73A64DE3B4A5329647F54491AD70B24CE4DC2B2286445C056DA"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_013.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_013.png",
+      "hash": "60AE58B9368A61DAD98DD41992D3209DF305A4E750169B9D18A4DB77ED697F36"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_014.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_014.png",
+      "hash": "CCE6F4E61DDA4CB7D952D493E3EAFD2D719483875523DA5CCD4060CC215290E8"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_015.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_015.png",
+      "hash": "E7D5246B9735530910D86B216B8E2134DF77D799B97FE8BC86176237231534AD"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_016.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_016.png",
+      "hash": "4BC07BF12D9C36181AA9EB7BBECC8CDED25FF3B9282BC23462297BF4D9780D86"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_017.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_017.png",
+      "hash": "5DEEA121D0F8262BA0D40D93436B53AC4534661547750AF31759BAEC5F1F139D"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_018.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_018.png",
+      "hash": "F3A34F1095DDEA5C3ABB4B543420EF8945C6FFE01361AD7288480E520FA6FE25"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_019.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_019.png",
+      "hash": "48BD44723D704B608E7734EAB2A9BABD4E0B939A5E0C75BBF5D5F9621E2CBCEC"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_020.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_020.png",
+      "hash": "A15D474C3FD14C518C1374346A77B08BC8C1E5564AF4F98914B852C5C4ED2B6D"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_021.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_021.png",
+      "hash": "BE2DF82BF67E2E6E6B716F49FC1E6237A3ED06F617227C4D4905B875B224933B"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_022.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_022.png",
+      "hash": "916DDE9F278397716A68E0D9B8FA02017A2500AC792E836F25B5DFBF515786CB"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_023.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_023.png",
+      "hash": "A5A1D4DB0F923A68EDE33FBB2B96D2C3469D648D1211B741B15EB75204FD9475"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_024.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_024.png",
+      "hash": "122DB623D9809ED3762E98160EFF2FFAE6310940E6F23D0AEC57E41AB410EF8E"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_025.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_025.png",
+      "hash": "46A09DAC1E1CB046637F2779DD141A6433C0DAA8396ABAC036B09ED612AC99C6"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_026.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_026.png",
+      "hash": "F5FB4DDA576ACEE7F75A638457687315419D0280681E6299B2EA56C9CD1BA920"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_027.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_027.png",
+      "hash": "8A9A1DC25460027CB9FF041675F4B9F9F68AD1973775A74324752D369AC15E5B"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_028.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_028.png",
+      "hash": "937ED6A1808E97CAA5BC096FFBB959F3012FA5C85C2DEF503D487DB3BCE01903"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_029.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_029.png",
+      "hash": "9CD21663653F513C258E853A7C363DCE86BABFCBA21E56FDD575A920B7EFB387"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_030.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_030.png",
+      "hash": "651DDF85B1BEE25D295AC06309FB9D769709D4CE94364191294538D8E0FBF92B"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_031.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_031.png",
+      "hash": "41E6C3DABF910908DFA2D82B82808CDBB2D5B654FD17289ADD834C92A295EE22"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_032.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_032.png",
+      "hash": "1291076785DECFEF96192E21AE91709F5D166F70818AA3CF69EE7FD606722EF2"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_033.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_033.png",
+      "hash": "4C213AFAA2AF7C51BFDD8C2CED75DC3F1F22B0E0D56FA21A3324FEA4398672E6"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_034.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_034.png",
+      "hash": "15AD5DABF261F9DD2EE7030B85DE3BAEC0AB0214A573595F05B9D464D70A2922"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_035.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_035.png",
+      "hash": "3950B07C0E8B4E8D3F35AD13FAC5EB295BAD604AD01460A2648767EE1AF1D11B"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_036.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_036.png",
+      "hash": "58DEC2F424FCDA3A1D329CED92733AA6B98D5E12FC916F66B6DD4F65F8BEEE5A"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_037.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_037.png",
+      "hash": "65B06E84E9A08D72926CE7C7D052F0362C2B7D3C54FCBB19E066B84E5D7E51C3"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_038.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_038.png",
+      "hash": "6F61A0E787B0E1463DE1632D5523B04F2BF1FB5621D4AA9891D1997B8CE149B7"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_039.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_039.png",
+      "hash": "96CE3123A99198C0EBAE5EF4843EA1C59380E94BF52B40E03CD4484ECCF1EB97"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_040.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_040.png",
+      "hash": "B837C3D99B56A17930F5A881AB0B82A85614917851734E7B8E43F9A2E78703B2"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_041.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_041.png",
+      "hash": "D9B3169DAB1D026EF968921EB9FB2EB8F9108DAFC5D1794571990519675F1BB4"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_042.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_042.png",
+      "hash": "7FBD16ECF6FAD82F12A827B138F6402072EC69D5E73D1B4AEB2CC73A78ED2515"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_043.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_043.png",
+      "hash": "18E4289098B12978C796245395BB40C2CDBA653A66C978702E9FF75AEE13104E"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_044.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_044.png",
+      "hash": "2000388BD77F11DBCA1F55F1CC4C906D9288ADF48DDFDA3920337CDCA2EE3B68"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_045.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_045.png",
+      "hash": "369FB17A557FC8C05A7987DBC02173C9A3E4D00FED41959E12EEF6ACDB22CA77"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_046.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_046.png",
+      "hash": "3C801BB650B0313D34CC140E6C9D3B0467AF0D0140FFFA5FFC2B03BEC9BD4A4B"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_047.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_047.png",
+      "hash": "2A944ED2DBAA5AB2E48F66D6F0B4B3E60A0EA3DFFF61B1A3C2B01D9FB92BC05B"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_048.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_048.png",
+      "hash": "9F7B6725FDC6F32C28644B62631FFA61AF29025EF1D597F60CEF4AB263817A4C"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_049.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_049.png",
+      "hash": "A20526A58BE79EBB6A61E95ACA2EF5442DD0EB1114FB833F666B0168FC420BD8"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_050.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_050.png",
+      "hash": "EF6BD54D05E1FBD9F2D0FCB37E74C120111B1659C78D97F0728B40701A52947D"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_051.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_051.png",
+      "hash": "145E3C3F686CD49C77258527AF50E0DE35B2A6B7544426509791BF5F5731AE1F"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_052.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_052.png",
+      "hash": "160274B45D232EC845DD9C6F13A846DA329B08115642BAA9840AB73D32D7D471"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_053.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_053.png",
+      "hash": "4D53C953B6258F8516810551FFF5FF7A42C8DF8B8D9AFDBE55DBF9A3CE927E62"
+    },
+    {
+      "type": "image",
+      "fileName": "uretici_fonksiyonlar_ve_indirgemeli_diziler_054.png",
+      "path": "Resources/Images/uretici_fonksiyonlar_ve_indirgemeli_diziler_054.png",
+      "hash": "7A26164AA51014A10D0619C1B874937193BF8C00223C8E982B91A4527FAC3AD4"
     }
   ]
 }
