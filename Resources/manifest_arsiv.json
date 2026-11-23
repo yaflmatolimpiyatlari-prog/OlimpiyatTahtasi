@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:18:13.6990130Z",
+  "updatedAt": "2026-11-23T23:32:24.3432038Z",
   "files": [
     {
       "type": "json",
@@ -17,7 +17,7 @@
       "type": "json",
       "fileName": "AYT_Matematik.json",
       "path": "Resources/Raw/AYT_Matematik.json",
-      "hash": "8C5A5F2A56EC22D1F88B78E48460114D305AF479CC43554687E50EA635878A3E"
+      "hash": "1CB1EC39E30F05CF36C739CFB015B8F735B14B417709A5EB95A4F071339E3B21"
     },
     {
       "type": "json",
@@ -324,6 +324,168 @@
       "fileName": "ayt_ikinci_dereceden_denklemler_1_048.png",
       "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_1_048.png",
       "hash": "AA9B65E9A7358ADEA251D9CB9B9C215CFC0DA85608A1B3ABC466CB63FF6631E7"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_001.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_001.png",
+      "hash": "8C600C6CB5A144043D37B2AF1898494588CF1668FF2A646561D220D198626D2A"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_002.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_002.png",
+      "hash": "022A7F72EEDD9D43BD4996BE13C4124A0A019C0F8DF032AECC6EFB91FDD5714E"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_003.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_003.png",
+      "hash": "14E14DC97A8667CAA57BE5F00D9A38EBC8D26854C69E75E0ED736B9A906082C2"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_004.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_004.png",
+      "hash": "47868D786EB2566781152F157CA644153484DC2334E17C100EE402A284A1ADF0"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_005.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_005.png",
+      "hash": "35803B9329FC17BF41C00F812404E911715ADE4BABBB9A84667346ADDEFEAD8E"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_006.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_006.png",
+      "hash": "C94672CFDF04E5EE248E29E3592F729F54EB11E667F78D001A4183EE171DEC27"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_007.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_007.png",
+      "hash": "9B25EFC7135A128594E499F22F5FBF43787F82A86E2C9CB061580354A38589B7"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_008.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_008.png",
+      "hash": "72947D5EC79F770ABF8D4E2B09D97C4A13093700A9CEF282C9BB73D476DC7F78"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_009.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_009.png",
+      "hash": "258066615D4431069FC167887B487BD6DAB53819C1E894BE1255FA4E0E41F807"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_010.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_010.png",
+      "hash": "51AB1436F29D06E96A4495188CE437A31029DE2D481F04831297F3657D28F07B"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_011.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_011.png",
+      "hash": "25BA3C4995C32935D4F090977327551BBDEBF2EF90A36A6645EB75E2D23F17EA"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_012.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_012.png",
+      "hash": "1441ED39AE3A355BAC540D48C6FF7FF541E4DC90C732D3342A33D69533C0DD13"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_013.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_013.png",
+      "hash": "FF884FDCD2CF45DB23F56381672A4292FF7078CDD89AB74454809E0B0E86A216"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_014.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_014.png",
+      "hash": "82EFD8A3D44DD111AD2E71247FB264BACB41AB0FF064D35C8E1A305017F81C2B"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_015.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_015.png",
+      "hash": "7693F9978442B3684A742984FDF64BED7CDDEC2531D47472E636AED038DC74C8"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_016.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_016.png",
+      "hash": "C0236B679E24BFEA5B79D534E0C69B5BCF41DB3699AC30AEC2037F1E6C471E88"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_017.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_017.png",
+      "hash": "CD44CA35A64D73BE5A0C0FD8F2CC8A50C502A3C1070C228A282117E2B694CF26"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_018.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_018.png",
+      "hash": "574DE3DC8E22C5C831F458E82AB2731AA7F7F6EDCA1820940B543DFF6F31D693"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_019.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_019.png",
+      "hash": "A030CC900DCA8FED0E8B4A0824B54012AA3B297A2A48923380B94B05FF4343C6"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_020.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_020.png",
+      "hash": "D73229C469DD555324890C181971CE20C738F4932EC3D8FAFFA077BF664EC27F"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_021.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_021.png",
+      "hash": "BC109BD7319FE0B0A14404A3F05AF604AF7D36D89E67E22535E2DBC5533149CA"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_022.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_022.png",
+      "hash": "62830A08F29F4BCAAF5134BBBA01EB23DC8D4D435562EAA302409BE6EA626C00"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_023.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_023.png",
+      "hash": "F4387F5275A6BFCD7E884AB81D87A118362208DBF7886CC49AF23B504E662369"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_024.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_024.png",
+      "hash": "8094170E54DB0FDFA365D47F8EC7D556B2B940805DF283899D4D859FBF10F869"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_025.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_025.png",
+      "hash": "C4DFD831883A046EAAC17F6439AC1B1814E93DF1C64ACA8382EF0BA0371795D9"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_026.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_026.png",
+      "hash": "81F14E8634B82A6964029FFC97ADC475E93792C5CAFBFC0649633FBD11A38765"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_ikinci_dereceden_denklemler_2_027.png",
+      "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_027.png",
+      "hash": "836F67AF89AD61F4AD772076F76925BAC78D7AD42405BD7CFA23B6BD5CFAE920"
     },
     {
       "type": "image",
