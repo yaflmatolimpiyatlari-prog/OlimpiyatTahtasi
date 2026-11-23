@@ -1,391 +1,5 @@
 {
   "Konu_Anlatimi": {
-    "TRİGONOMETRİK_FONKSİYONLAR_I": [
-      {
-        "id": 1,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_001.png"
-      },
-      {
-        "id": 2,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_002.png"
-      },
-      {
-        "id": 3,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_003.png"
-      },
-      {
-        "id": 4,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_004.png"
-      },
-      {
-        "id": 5,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_005.png"
-      },
-      {
-        "id": 6,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_006.png"
-      },
-      {
-        "id": 7,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_007.png"
-      },
-      {
-        "id": 8,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_008.png"
-      },
-      {
-        "id": 9,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_009.png"
-      },
-      {
-        "id": 10,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_010.png"
-      },
-      {
-        "id": 11,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_011.png"
-      },
-      {
-        "id": 12,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_012.png"
-      },
-      {
-        "id": 13,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_013.png"
-      },
-      {
-        "id": 14,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_014.png"
-      },
-      {
-        "id": 15,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_015.png"
-      },
-      {
-        "id": 16,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_016.png"
-      },
-      {
-        "id": 17,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_017.png"
-      },
-      {
-        "id": 18,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_018.png"
-      },
-      {
-        "id": 19,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_019.png"
-      },
-      {
-        "id": 20,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_020.png"
-      },
-      {
-        "id": 21,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_021.png"
-      },
-      {
-        "id": 22,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_022.png"
-      },
-      {
-        "id": 23,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_023.png"
-      },
-      {
-        "id": 24,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_024.png"
-      },
-      {
-        "id": 25,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_025.png"
-      },
-      {
-        "id": 26,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_026.png"
-      },
-      {
-        "id": 27,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_027.png"
-      },
-      {
-        "id": 28,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_028.png"
-      },
-      {
-        "id": 29,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_029.png"
-      },
-      {
-        "id": 30,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_030.png"
-      },
-      {
-        "id": 31,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_031.png"
-      },
-      {
-        "id": 32,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_032.png"
-      },
-      {
-        "id": 33,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_033.png"
-      },
-      {
-        "id": 34,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_034.png"
-      },
-      {
-        "id": 35,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_035.png"
-      },
-      {
-        "id": 36,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_036.png"
-      },
-      {
-        "id": 37,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_037.png"
-      },
-      {
-        "id": 38,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_038.png"
-      },
-      {
-        "id": 39,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_039.png"
-      },
-      {
-        "id": 40,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_040.png"
-      },
-      {
-        "id": 41,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_041.png"
-      },
-      {
-        "id": 42,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_042.png"
-      },
-      {
-        "id": 43,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_043.png"
-      },
-      {
-        "id": 44,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_044.png"
-      },
-      {
-        "id": 45,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_045.png"
-      },
-      {
-        "id": 46,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_046.png"
-      },
-      {
-        "id": 47,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_047.png"
-      },
-      {
-        "id": 48,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_048.png"
-      },
-      {
-        "id": 49,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_049.png"
-      },
-      {
-        "id": 50,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_050.png"
-      },
-      {
-        "id": 51,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_051.png"
-      },
-      {
-        "id": 52,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_052.png"
-      },
-      {
-        "id": 53,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_053.png"
-      },
-      {
-        "id": 54,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_054.png"
-      },
-      {
-        "id": 55,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_055.png"
-      },
-      {
-        "id": 56,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_056.png"
-      },
-      {
-        "id": 57,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_057.png"
-      },
-      {
-        "id": 58,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_058.png"
-      },
-      {
-        "id": 59,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_059.png"
-      },
-      {
-        "id": 60,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_060.png"
-      },
-      {
-        "id": 61,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_061.png"
-      },
-      {
-        "id": 62,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_062.png"
-      },
-      {
-        "id": 63,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_063.png"
-      },
-      {
-        "id": 64,
-        "type": "image",
-        "text": "",
-        "image_name": "s_11_sinif_trigonometri_i_064.png"
-      }
-    ],
     "TRİGONOMETRİK_FONKSİYONLAR_II": [
       {
         "id": 1,
@@ -512,6 +126,252 @@
         "type": "image",
         "text": "",
         "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_032.png"
+      },
+      {
+        "id": 33,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_033.png"
+      },
+      {
+        "id": 34,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_034.png"
+      },
+      {
+        "id": 35,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_035.png"
+      },
+      {
+        "id": 36,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_036.png"
+      },
+      {
+        "id": 37,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_037.png"
+      },
+      {
+        "id": 38,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_038.png"
+      },
+      {
+        "id": 39,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_039.png"
+      },
+      {
+        "id": 40,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_040.png"
+      },
+      {
+        "id": 41,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_041.png"
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_042.png"
+      },
+      {
+        "id": 43,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_043.png"
+      },
+      {
+        "id": 44,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_044.png"
+      },
+      {
+        "id": 45,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_045.png"
+      },
+      {
+        "id": 46,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_046.png"
+      },
+      {
+        "id": 47,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_047.png"
+      },
+      {
+        "id": 48,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_048.png"
+      },
+      {
+        "id": 49,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_049.png"
+      },
+      {
+        "id": 50,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_050.png"
+      },
+      {
+        "id": 51,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_051.png"
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_052.png"
+      },
+      {
+        "id": 53,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_053.png"
+      },
+      {
+        "id": 54,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_054.png"
+      },
+      {
+        "id": 55,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_055.png"
+      },
+      {
+        "id": 56,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_056.png"
+      },
+      {
+        "id": 57,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_057.png"
+      },
+      {
+        "id": 58,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_058.png"
+      },
+      {
+        "id": 59,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_059.png"
+      },
+      {
+        "id": 60,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_060.png"
+      },
+      {
+        "id": 61,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_061.png"
+      },
+      {
+        "id": 62,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_ii_062.png"
       }
     ],
     "TRİGONOMETRİK_FONKSİYONLAR_I": [
@@ -898,6 +758,332 @@
         "type": "image",
         "text": "",
         "image_name": "s_11_sinif_trigonometrik_fonksiyonlar_i_064.png"
+      }
+    ],
+    "KARESEL-KAREKÖK-RASYONEL_FONKSİYONLAR": [
+      {
+        "id": 1,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_001.png"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_002.png"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_003.png"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_004.png"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_005.png"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_006.png"
+      },
+      {
+        "id": 7,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_007.png"
+      },
+      {
+        "id": 8,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_008.png"
+      },
+      {
+        "id": 9,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_009.png"
+      },
+      {
+        "id": 10,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_010.png"
+      },
+      {
+        "id": 11,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_011.png"
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_012.png"
+      },
+      {
+        "id": 13,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_013.png"
+      },
+      {
+        "id": 14,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_014.png"
+      },
+      {
+        "id": 15,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_015.png"
+      },
+      {
+        "id": 16,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_016.png"
+      },
+      {
+        "id": 17,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_017.png"
+      },
+      {
+        "id": 18,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_018.png"
+      },
+      {
+        "id": 19,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_019.png"
+      },
+      {
+        "id": 20,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_020.png"
+      },
+      {
+        "id": 21,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_032.png"
+      },
+      {
+        "id": 33,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_033.png"
+      },
+      {
+        "id": 34,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_034.png"
+      },
+      {
+        "id": 35,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_035.png"
+      },
+      {
+        "id": 36,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_036.png"
+      },
+      {
+        "id": 37,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_037.png"
+      },
+      {
+        "id": 38,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_038.png"
+      },
+      {
+        "id": 39,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_039.png"
+      },
+      {
+        "id": 40,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_040.png"
+      },
+      {
+        "id": 41,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_041.png"
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_042.png"
+      },
+      {
+        "id": 43,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_043.png"
+      },
+      {
+        "id": 44,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_044.png"
+      },
+      {
+        "id": 45,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_045.png"
+      },
+      {
+        "id": 46,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_046.png"
+      },
+      {
+        "id": 47,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_047.png"
+      },
+      {
+        "id": 48,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_048.png"
+      },
+      {
+        "id": 49,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_049.png"
+      },
+      {
+        "id": 50,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_050.png"
+      },
+      {
+        "id": 51,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_051.png"
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_052.png"
+      },
+      {
+        "id": 53,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_053.png"
+      },
+      {
+        "id": 54,
+        "type": "image",
+        "text": "",
+        "image_name": "s_11_sinif_karesel_karekok_rasyonel_fonksiyonlar_054.png"
       }
     ]
   }

@@ -1,0 +1,1608 @@
+{
+  "Konu_Anlatimi": {
+    "Saymanın_İlkeleri": [
+      {
+        "id": 1,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_001.png"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_002.png"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_003.png"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_004.png"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_005.png"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_006.png"
+      },
+      {
+        "id": 7,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_007.png"
+      },
+      {
+        "id": 8,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_008.png"
+      },
+      {
+        "id": 9,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_009.png"
+      },
+      {
+        "id": 10,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_010.png"
+      },
+      {
+        "id": 11,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_011.png"
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_012.png"
+      },
+      {
+        "id": 13,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_013.png"
+      },
+      {
+        "id": 14,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_014.png"
+      },
+      {
+        "id": 15,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_015.png"
+      },
+      {
+        "id": 16,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_016.png"
+      },
+      {
+        "id": 17,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_017.png"
+      },
+      {
+        "id": 18,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_018.png"
+      },
+      {
+        "id": 19,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_019.png"
+      },
+      {
+        "id": 20,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_020.png"
+      },
+      {
+        "id": 21,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_032.png"
+      },
+      {
+        "id": 33,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_033.png"
+      },
+      {
+        "id": 34,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_034.png"
+      },
+      {
+        "id": 35,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_035.png"
+      },
+      {
+        "id": 36,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_036.png"
+      },
+      {
+        "id": 37,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_037.png"
+      },
+      {
+        "id": 38,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_038.png"
+      },
+      {
+        "id": 39,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_039.png"
+      },
+      {
+        "id": 40,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_040.png"
+      },
+      {
+        "id": 41,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_041.png"
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_042.png"
+      },
+      {
+        "id": 43,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_043.png"
+      },
+      {
+        "id": 44,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_044.png"
+      },
+      {
+        "id": 45,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_045.png"
+      },
+      {
+        "id": 46,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_046.png"
+      },
+      {
+        "id": 47,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_047.png"
+      },
+      {
+        "id": 48,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_048.png"
+      },
+      {
+        "id": 49,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_049.png"
+      },
+      {
+        "id": 50,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_050.png"
+      },
+      {
+        "id": 51,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_051.png"
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_052.png"
+      },
+      {
+        "id": 53,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_053.png"
+      },
+      {
+        "id": 54,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_054.png"
+      },
+      {
+        "id": 55,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_055.png"
+      },
+      {
+        "id": 56,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_056.png"
+      },
+      {
+        "id": 57,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_057.png"
+      },
+      {
+        "id": 58,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_058.png"
+      },
+      {
+        "id": 59,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_059.png"
+      },
+      {
+        "id": 60,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_060.png"
+      },
+      {
+        "id": 61,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_061.png"
+      },
+      {
+        "id": 62,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_062.png"
+      },
+      {
+        "id": 63,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_063.png"
+      },
+      {
+        "id": 64,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_064.png"
+      },
+      {
+        "id": 65,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_065.png"
+      },
+      {
+        "id": 66,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_066.png"
+      },
+      {
+        "id": 67,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_067.png"
+      },
+      {
+        "id": 68,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_068.png"
+      },
+      {
+        "id": 69,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_069.png"
+      },
+      {
+        "id": 70,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_070.png"
+      },
+      {
+        "id": 71,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_071.png"
+      },
+      {
+        "id": 72,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_072.png"
+      },
+      {
+        "id": 73,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_073.png"
+      },
+      {
+        "id": 74,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_074.png"
+      },
+      {
+        "id": 75,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_075.png"
+      },
+      {
+        "id": 76,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_076.png"
+      },
+      {
+        "id": 77,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_077.png"
+      },
+      {
+        "id": 78,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_saymanin_ilkeleri_078.png"
+      }
+    ],
+    "Permutasyonlar_ve_Kombinasyonlar": [
+      {
+        "id": 1,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_001.png"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_002.png"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_003.png"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_004.png"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_005.png"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_006.png"
+      },
+      {
+        "id": 7,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_007.png"
+      },
+      {
+        "id": 8,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_008.png"
+      },
+      {
+        "id": 9,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_009.png"
+      },
+      {
+        "id": 10,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_010.png"
+      },
+      {
+        "id": 11,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_011.png"
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_012.png"
+      },
+      {
+        "id": 13,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_013.png"
+      },
+      {
+        "id": 14,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_014.png"
+      },
+      {
+        "id": 15,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_015.png"
+      },
+      {
+        "id": 16,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_016.png"
+      },
+      {
+        "id": 17,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_017.png"
+      },
+      {
+        "id": 18,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_018.png"
+      },
+      {
+        "id": 19,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_019.png"
+      },
+      {
+        "id": 20,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_020.png"
+      },
+      {
+        "id": 21,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_032.png"
+      },
+      {
+        "id": 33,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_033.png"
+      },
+      {
+        "id": 34,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_034.png"
+      },
+      {
+        "id": 35,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_035.png"
+      },
+      {
+        "id": 36,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_036.png"
+      },
+      {
+        "id": 37,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_037.png"
+      },
+      {
+        "id": 38,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_038.png"
+      },
+      {
+        "id": 39,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_039.png"
+      },
+      {
+        "id": 40,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_040.png"
+      },
+      {
+        "id": 41,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_041.png"
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_042.png"
+      },
+      {
+        "id": 43,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_043.png"
+      },
+      {
+        "id": 44,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_044.png"
+      },
+      {
+        "id": 45,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_045.png"
+      },
+      {
+        "id": 46,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_046.png"
+      },
+      {
+        "id": 47,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_047.png"
+      },
+      {
+        "id": 48,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_048.png"
+      },
+      {
+        "id": 49,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_049.png"
+      },
+      {
+        "id": 50,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_050.png"
+      },
+      {
+        "id": 51,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_051.png"
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_052.png"
+      },
+      {
+        "id": 53,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_053.png"
+      },
+      {
+        "id": 54,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_054.png"
+      },
+      {
+        "id": 55,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_055.png"
+      },
+      {
+        "id": 56,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_056.png"
+      },
+      {
+        "id": 57,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_057.png"
+      },
+      {
+        "id": 58,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_058.png"
+      },
+      {
+        "id": 59,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_059.png"
+      },
+      {
+        "id": 60,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_060.png"
+      },
+      {
+        "id": 61,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_061.png"
+      },
+      {
+        "id": 62,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_062.png"
+      },
+      {
+        "id": 63,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_063.png"
+      },
+      {
+        "id": 64,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_064.png"
+      },
+      {
+        "id": 65,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_065.png"
+      },
+      {
+        "id": 66,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_066.png"
+      },
+      {
+        "id": 67,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_067.png"
+      },
+      {
+        "id": 68,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_068.png"
+      },
+      {
+        "id": 69,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_069.png"
+      },
+      {
+        "id": 70,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_070.png"
+      },
+      {
+        "id": 71,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_permutasyonlar_ve_kombinasyonlar_071.png"
+      }
+    ],
+    "Güvercin_Yuvası_ve_İçerme_Dışarma_Prensibi": [
+      {
+        "id": 1,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_001.png"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_002.png"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_003.png"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_004.png"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_005.png"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_006.png"
+      },
+      {
+        "id": 7,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_007.png"
+      },
+      {
+        "id": 8,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_008.png"
+      },
+      {
+        "id": 9,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_009.png"
+      },
+      {
+        "id": 10,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_010.png"
+      },
+      {
+        "id": 11,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_011.png"
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_012.png"
+      },
+      {
+        "id": 13,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_013.png"
+      },
+      {
+        "id": 14,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_014.png"
+      },
+      {
+        "id": 15,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_015.png"
+      },
+      {
+        "id": 16,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_016.png"
+      },
+      {
+        "id": 17,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_017.png"
+      },
+      {
+        "id": 18,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_018.png"
+      },
+      {
+        "id": 19,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_019.png"
+      },
+      {
+        "id": 20,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_020.png"
+      },
+      {
+        "id": 21,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_032.png"
+      },
+      {
+        "id": 33,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_033.png"
+      },
+      {
+        "id": 34,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_034.png"
+      },
+      {
+        "id": 35,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_035.png"
+      },
+      {
+        "id": 36,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_036.png"
+      },
+      {
+        "id": 37,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_037.png"
+      },
+      {
+        "id": 38,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_038.png"
+      },
+      {
+        "id": 39,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_039.png"
+      },
+      {
+        "id": 40,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_040.png"
+      },
+      {
+        "id": 41,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_041.png"
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_042.png"
+      },
+      {
+        "id": 43,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_043.png"
+      },
+      {
+        "id": 44,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_044.png"
+      },
+      {
+        "id": 45,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_045.png"
+      },
+      {
+        "id": 46,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_046.png"
+      },
+      {
+        "id": 47,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_047.png"
+      },
+      {
+        "id": 48,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_048.png"
+      },
+      {
+        "id": 49,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_049.png"
+      },
+      {
+        "id": 50,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_050.png"
+      },
+      {
+        "id": 51,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_051.png"
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_052.png"
+      },
+      {
+        "id": 53,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_053.png"
+      },
+      {
+        "id": 54,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_054.png"
+      },
+      {
+        "id": 55,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_055.png"
+      },
+      {
+        "id": 56,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_056.png"
+      },
+      {
+        "id": 57,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_057.png"
+      },
+      {
+        "id": 58,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_058.png"
+      },
+      {
+        "id": 59,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_059.png"
+      },
+      {
+        "id": 60,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_060.png"
+      },
+      {
+        "id": 61,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_061.png"
+      },
+      {
+        "id": 62,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_062.png"
+      },
+      {
+        "id": 63,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_guvercin_yuvasi_ve_icerme_disarma_prensibi_063.png"
+      }
+    ],
+    "Üretici_Fonksiyonlar_ve_İndirgemeli_Diziler": [
+      {
+        "id": 1,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_001.png"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_002.png"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_003.png"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_004.png"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_005.png"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_006.png"
+      },
+      {
+        "id": 7,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_007.png"
+      },
+      {
+        "id": 8,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_008.png"
+      },
+      {
+        "id": 9,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_009.png"
+      },
+      {
+        "id": 10,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_010.png"
+      },
+      {
+        "id": 11,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_011.png"
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_012.png"
+      },
+      {
+        "id": 13,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_013.png"
+      },
+      {
+        "id": 14,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_014.png"
+      },
+      {
+        "id": 15,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_015.png"
+      },
+      {
+        "id": 16,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_016.png"
+      },
+      {
+        "id": 17,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_017.png"
+      },
+      {
+        "id": 18,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_018.png"
+      },
+      {
+        "id": 19,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_019.png"
+      },
+      {
+        "id": 20,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_020.png"
+      },
+      {
+        "id": 21,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_032.png"
+      },
+      {
+        "id": 33,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_033.png"
+      },
+      {
+        "id": 34,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_034.png"
+      },
+      {
+        "id": 35,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_035.png"
+      },
+      {
+        "id": 36,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_036.png"
+      },
+      {
+        "id": 37,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_037.png"
+      },
+      {
+        "id": 38,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_038.png"
+      },
+      {
+        "id": 39,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_039.png"
+      },
+      {
+        "id": 40,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_040.png"
+      },
+      {
+        "id": 41,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_041.png"
+      },
+      {
+        "id": 42,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_042.png"
+      },
+      {
+        "id": 43,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_043.png"
+      },
+      {
+        "id": 44,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_044.png"
+      },
+      {
+        "id": 45,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_045.png"
+      },
+      {
+        "id": 46,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_046.png"
+      },
+      {
+        "id": 47,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_047.png"
+      },
+      {
+        "id": 48,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_048.png"
+      },
+      {
+        "id": 49,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_049.png"
+      },
+      {
+        "id": 50,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_050.png"
+      },
+      {
+        "id": 51,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_051.png"
+      },
+      {
+        "id": 52,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_052.png"
+      },
+      {
+        "id": 53,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_053.png"
+      },
+      {
+        "id": 54,
+        "type": "image",
+        "text": "",
+        "image_name": "olimpiyat_uretici_fonksiyonlar_ve_indirgemeli_diziler_054.png"
+      }
+    ]
+  }
+}
