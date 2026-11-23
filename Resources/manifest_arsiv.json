@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:32:24.3432038Z",
+  "updatedAt": "2026-11-23T23:42:08.2502028Z",
   "files": [
     {
       "type": "json",
@@ -17,7 +17,7 @@
       "type": "json",
       "fileName": "AYT_Matematik.json",
       "path": "Resources/Raw/AYT_Matematik.json",
-      "hash": "1CB1EC39E30F05CF36C739CFB015B8F735B14B417709A5EB95A4F071339E3B21"
+      "hash": "D3FAB945BF774A2F7A68296FC19F0D6BCCDA709FF65774E30CC962FD1B211455"
     },
     {
       "type": "json",
@@ -41,13 +41,13 @@
       "type": "image",
       "fileName": "ayt_ikinci_dereceden_denklemler_1_001.png",
       "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_1_001.png",
-      "hash": "232B69AA039DE9AE9B50C1CF07EE3FCF13AE5FB007E8FDF0B2CB03F4140C8049"
+      "hash": "D3CB52A49C90AAF7B1630AA74F6997DCDC996FF8022622455E59E6266BAABA76"
     },
     {
       "type": "image",
       "fileName": "ayt_ikinci_dereceden_denklemler_1_002.png",
       "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_1_002.png",
-      "hash": "D3CB52A49C90AAF7B1630AA74F6997DCDC996FF8022622455E59E6266BAABA76"
+      "hash": "232B69AA039DE9AE9B50C1CF07EE3FCF13AE5FB007E8FDF0B2CB03F4140C8049"
     },
     {
       "type": "image",
