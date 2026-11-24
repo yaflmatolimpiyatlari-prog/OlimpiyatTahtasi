@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:42:08.2502028Z",
+  "updatedAt": "2026-11-24T20:36:15.4667852Z",
   "files": [
     {
       "type": "json",
@@ -17,7 +17,7 @@
       "type": "json",
       "fileName": "AYT_Matematik.json",
       "path": "Resources/Raw/AYT_Matematik.json",
-      "hash": "D3FAB945BF774A2F7A68296FC19F0D6BCCDA709FF65774E30CC962FD1B211455"
+      "hash": "6654C6095099B074ADA2BA1469195DC7FDE4AE3390352A206804B5109C1FE9DF"
     },
     {
       "type": "json",
@@ -486,6 +486,198 @@
       "fileName": "ayt_ikinci_dereceden_denklemler_2_027.png",
       "path": "Resources/Images/ayt_ikinci_dereceden_denklemler_2_027.png",
       "hash": "836F67AF89AD61F4AD772076F76925BAC78D7AD42405BD7CFA23B6BD5CFAE920"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_001.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_001.png",
+      "hash": "D14CF55304DB82EA031D2FC9057639E3A1AFEADC53F8BDBD62CAD72098AE2DC4"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_002.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_002.png",
+      "hash": "AE10C917B7C2DB52181B1217E0B175ADCCF7AF036CA77C54F6C305A54C4E6B86"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_003.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_003.png",
+      "hash": "5DD4D64492CF53E157A0C8ABBCD9D2172D39102D035165F25C5158C99AFA1EB1"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_004.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_004.png",
+      "hash": "40ADA724618B3FC30F418A70357EDFFB1EE8D9343C4ED723A4B296D22E0828AB"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_005.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_005.png",
+      "hash": "8A2B019FDACDFCA9F5D5EA84AD2190BF37B4C44ED1203573885D0D76CF7706D8"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_006.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_006.png",
+      "hash": "4A4EE555657F6CEAEF1E443277DEE8EDD52C4976704630E8CD76B3C383119DEE"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_007.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_007.png",
+      "hash": "4042E64298F16F5BA97BB832CE98235CB12469856503D9DBFDAEB95148888F11"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_008.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_008.png",
+      "hash": "22C4B7B119CAC542012C0853FC1B347915114347341943270A1737F1D8AD4278"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_009.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_009.png",
+      "hash": "8E8E4F26BDE70D320A0EAB4550AAC9BA82D775BE40D53A2EDA2D4855DA1B006C"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_010.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_010.png",
+      "hash": "C5ABB9A8454DA71CF4A5F6766BED8631A592D3BC84244683F60827CCB947A27D"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_011.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_011.png",
+      "hash": "D994DB8BE81E64F19EC79D00B580BBBEFBADF7F1414DF4B45C911332FF4DB3A0"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_012.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_012.png",
+      "hash": "20A4108C714EE7DE3E57F31EA1773391176E075A59209305B866BF472C87A125"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_013.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_013.png",
+      "hash": "A7F51F0117B3A03CB0A60869A66E2E1F2200AFC885C3E6ECCA84A8402D0DB38F"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_014.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_014.png",
+      "hash": "076BE45D3FD764B91F1391BFB3422346271C1E9F91C83E0D8CE6566061493B45"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_015.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_015.png",
+      "hash": "27BFD0C4CAC20F139CD04AFE57983A474C5B67B0F4E3664FA37E5C60428DBF85"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_016.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_016.png",
+      "hash": "30B8E7190642C0F85C051117288CCCB4B6B2FCC61C39BCF89BD737FEBA87976D"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_017.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_017.png",
+      "hash": "030CBEA32DC63EB94C07F82FD24BE96AA6B9323843A6386963BEF24F0FE7075C"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_018.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_018.png",
+      "hash": "2AC4AC710E3C409C3DA035145AE18E2829AB9BEE89567550219FCA22D7B484A9"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_019.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_019.png",
+      "hash": "10A1249B94ABF58F41068328C16081F12EEE1BBA117D717C87062BE981C09498"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_020.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_020.png",
+      "hash": "131F11333E7EBA79F02999C8AF7EB515698AC34969206B75F3731F63898311E7"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_021.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_021.png",
+      "hash": "C1A63AE098E741D84AE07A05538F6677892F37AD16F112F8F8079EC22873BC47"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_022.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_022.png",
+      "hash": "62BBF2E01A237444AF6F97F10A65AFEC9ED39A8F4CB50EC899A74F1EF58880D4"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_023.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_023.png",
+      "hash": "2C1A7C1D6A32DCF16DFCCA4CAC04045A9C880C88CCF8D70AE0384BD50FD0BB11"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_024.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_024.png",
+      "hash": "81921E6A182A958DDE8C970B9548E4E63F40D8164CDDDE6DEFCD037AB0EE872B"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_025.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_025.png",
+      "hash": "96E42EC09C9A9A88AD638D4FA2A57BD20A4874910CA1611821B58278EC495D03"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_026.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_026.png",
+      "hash": "852A79DDE0D46BBB8CE80FC7C40F5A57185173525D7231A633BBE2D75902796C"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_027.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_027.png",
+      "hash": "6646A6CBA9BB4470B08D66CF36462CFC9498C8A65B6CD8282982F718C09A4C67"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_028.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_028.png",
+      "hash": "98E15072D00BEF74083C955C7DC58B4D4BF6AE7A8D9E79E50573AD7F75D984C6"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_029.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_029.png",
+      "hash": "A9163C982D1416682C0CB9E46AD5CD8A938C336510F26C4ECC53C269D931D6E6"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_030.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_030.png",
+      "hash": "7BFD18A41FD6F20F3F3CAA522EF4B7E908BAED0CEDDCE99E871C32158DE65214"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_031.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_031.png",
+      "hash": "B2FE263C61CE0A3CAFF0C734F1289F45758FADD44039AAC1822DCEA7E535DF07"
+    },
+    {
+      "type": "image",
+      "fileName": "ayt_karmasik_sayilar_032.png",
+      "path": "Resources/Images/ayt_karmasik_sayilar_032.png",
+      "hash": "FBCAC3FADAE8911102F4775552C849AA63D8A7FEFD7D474263F735BBE898C06A"
     },
     {
       "type": "image",

@@ -723,6 +723,200 @@
         "text": "",
         "image_name": "ayt_ikinci_dereceden_denklemler_1_048.png"
       }
+    ],
+    "KARMAŞIK_SAYILAR": [
+      {
+        "id": 1,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_001.png"
+      },
+      {
+        "id": 2,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_002.png"
+      },
+      {
+        "id": 3,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_003.png"
+      },
+      {
+        "id": 4,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_004.png"
+      },
+      {
+        "id": 5,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_005.png"
+      },
+      {
+        "id": 6,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_006.png"
+      },
+      {
+        "id": 7,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_007.png"
+      },
+      {
+        "id": 8,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_008.png"
+      },
+      {
+        "id": 9,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_009.png"
+      },
+      {
+        "id": 10,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_010.png"
+      },
+      {
+        "id": 11,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_011.png"
+      },
+      {
+        "id": 12,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_012.png"
+      },
+      {
+        "id": 13,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_013.png"
+      },
+      {
+        "id": 14,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_014.png"
+      },
+      {
+        "id": 15,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_015.png"
+      },
+      {
+        "id": 16,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_016.png"
+      },
+      {
+        "id": 17,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_017.png"
+      },
+      {
+        "id": 18,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_018.png"
+      },
+      {
+        "id": 19,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_019.png"
+      },
+      {
+        "id": 20,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_020.png"
+      },
+      {
+        "id": 21,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_021.png"
+      },
+      {
+        "id": 22,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_022.png"
+      },
+      {
+        "id": 23,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_023.png"
+      },
+      {
+        "id": 24,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_024.png"
+      },
+      {
+        "id": 25,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_025.png"
+      },
+      {
+        "id": 26,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_026.png"
+      },
+      {
+        "id": 27,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_027.png"
+      },
+      {
+        "id": 28,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_028.png"
+      },
+      {
+        "id": 29,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_029.png"
+      },
+      {
+        "id": 30,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_030.png"
+      },
+      {
+        "id": 31,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_031.png"
+      },
+      {
+        "id": 32,
+        "type": "image",
+        "text": "",
+        "image_name": "ayt_karmasik_sayilar_032.png"
+      }
     ]
   }
 }
